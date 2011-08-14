@@ -1,0 +1,1018 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+%	../bundle/Matchit/plugin/matchit.vim	/^nnoremap <silent> %  :<C-U>call <SID>Match_wrapper('',1,'n') <CR>$/;"	m	language:Vim
+%	../bundle/Matchit/plugin/matchit.vim	/^onoremap <silent> %  v:<C-U>call <SID>Match_wrapper('',1,'o') <CR>$/;"	m	language:Vim
+%	../bundle/Matchit/plugin/matchit.vim	/^vnoremap <silent> %  :<C-U>call <SID>Match_wrapper('',1,'v') <CR>m'gv``$/;"	m	language:Vim
+/	SearchComplete.vim	/^noremap \/ :call SearchCompleteStart()<CR>:set hls<CR>\/$/;"	m	language:Vim
+<Leader>rwp	cecutil.vim	/^ map <unique> <Leader>rwp <Plug>RestoreWinPosn$/;"	m	language:Vim
+<Leader>swp	cecutil.vim	/^ map <unique> <Leader>swp <Plug>SaveWinPosn$/;"	m	language:Vim
+<Plug>AM_Htd	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_Htd <SID>WS:'y,'zs%<[tT][rR]><[tT][dD][^>]\\{-}>\\<Bar><\/[tT][dD]><[tT][dD][^>]\\{-}>\\<Bar><\/[tT][dD]><\/[tT][rR]>%@&@%g<CR>'yjma'zk:AlignCtrl m=Ilp1P0 @<CR>:'a,.Align<CR>:'y,'zs\/ @\/@\/<CR>:'y,'zs\/@ <[tT][rR]>\/<[tT][rR]>\/ge<CR>:'y,'zs\/@\/\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T|	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T| <SID>WS:AlignCtrl mIp0P0=r <Bar><CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T#	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T#   <SID>WS:AlignCtrl mIp0P0=r #<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T,	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T,   <SID>WS:AlignCtrl mIp0P1=r ,<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T:	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T:   <SID>WS:AlignCtrl mIp1P1=r :<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T;	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T;   <SID>WS:AlignCtrl mIp0P0=r ;<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T<	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T<   <SID>WS:AlignCtrl mIp0P0=r <<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T=	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T=   <SID>WS:'a,'z-1s\/\\s\\+\\([*\/+\\-%<Bar>&\\~^]\\==\\)\/ \\1\/e<CR>:'a,'z-1s@ \\+\\([*\/+\\-%<Bar>&\\~^]\\)=@\\1=@ge<CR>:'a,'z-1s\/; *\/;@\/e<CR>:'a,'z-1s\/==\/\\="\\<Char-0x0f>\\<Char-0x0f>"\/ge<CR>:'a,'z-1s\/!=\/\\x="!\\<Char-0x0f>"\/ge<CR>:AlignCtrl mIp1P1=r = @<CR>:AlignCtrl g =<CR>:'a,'z-1Align<CR>:'a,'z-1s\/; *@\/;\/e<CR>:'a,'z-1s\/; *$\/;\/e<CR>:'a,'z-1s@\\([*\/+\\-%<Bar>&\\~^]\\)\\( \\+\\)=@\\2\\1=@ge<CR>:'a,'z-1s\/\\( \\+\\);\/;\\1\/ge<CR>:'a,'z-1s\/\\xff\/=\/ge<CR><SID>WE:exe "norm <Plug>acom"$/;"	m	language:Vim
+<Plug>AM_T?	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T?   <SID>WS:AlignCtrl mIp0P0=r ?<CR>:'a,.Align<CR>:'y,'zs\/ \\( *\\);\/;\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T@	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T@   <SID>WS:AlignCtrl mIp0P0=r @<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_Tab	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_Tab  <SID>WS:'a,.s\/^\\(\\t*\\)\\(.*\\)\/\\=submatch(1).escape(substitute(submatch(2),'\\t','@','g'),'\\')\/<CR>:AlignCtrl mI=r @<CR>:'a,.Align<CR>:'y+1,'z-1s\/@\/ \/g<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_Ts,	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_Ts,  <SID>WS:AlignCtrl mIp0P1=r ,<CR>:'a,.Align<CR>:'a,.s\/\\(\\s*\\),\/,\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_Tsp	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_Tsp  <SID>WS:'a,.s\/^\\(\\s*\\)\\(.*\\)\/\\=submatch(1).escape(substitute(submatch(2),'\\s\\+','@','g'),'\\')\/<CR>:AlignCtrl mI=r @<CR>:'a,.Align<CR>:'y+1,'z-1s\/@\/ \/g<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_T~	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_T~   <SID>WS:AlignCtrl mIp0P0=r ~<CR>:'a,.Align<CR>:'y,'zs\/ \\( *\\);\/;\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_a(	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_a(       <SID>WS:AlignCtrl mIp0P1=l<CR>:'a,.Align [(,]<CR>:sil 'y+1,'z-1s\/\\(\\s\\+\\),\/,\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_a,		<SID>WS:'y,'zs/\(\S\)\s\+/\1	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_a,		<SID>WS:'y,'zs\/\\(\\S\\)\\s\\+\/\\1 \/ge<CR>'yjma'zk:call AlignMaps#CharJoiner(",")<cr>:silent 'y,'zg\/,\/call AlignMaps#FixMultiDec()<CR>'z:exe "norm \\<Plug>AM_adec"<cr><SID>WE$/;"	m	language:Vim
+<Plug>AM_a<		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_a<		<SID>WS:AlignCtrl mIp1P1=l << >><CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_a=		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_a=		<SID>WS:AlignCtrl mIp1P1=l<CR>:AlignCtrl g :=<CR>:'a,'zAlign :\\==<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_a?		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_a?		<SID>WS:AlignCtrl mIp1P1lC ? : : : : <CR>:'a,.Align<CR>:'a,'z-1s\/\\(\\s\\+\\)? \/?\\1\/e<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_abox		<SID>WS:let	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_abox		<SID>WS:let g:alignmaps_iws=substitute(getline("'a"),'^\\(\\s*\\).*$','\\1','e')<CR>:'a,'z-1s\/^\\s\\+\/\/e<CR>:'a,'z-1s\/^.*$\/@&@\/<CR>:AlignCtrl m=p01P0w @<CR>:'a,.Align<CR>:'a,'z-1s\/@\/ * \/<CR>:'a,'z-1s\/@$\/*\/<CR>'aYP:s\/.\/*\/g<CR>0r\/'zkYp:s\/.\/*\/g<CR>0r A\/<Esc>:exe "'a-1,'z-1s\/^\/".g:alignmaps_iws."\/e"<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_acom		<SID>WS:'a,.s/\/[*/]\/\=/@&@/e<CR>:'a,.s/\*\//@&/e<CR>:'y,'zs/^\(	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_acom		<SID>WS:'a,.s\/\\\/[*\/]\\\/\\=\/@&@\/e<CR>:'a,.s\/\\*\\\/\/@&\/e<CR>:'y,'zs\/^\\( *\\) @\/\\1@\/e<CR>'zk:call AlignMaps#StdAlign(2)<CR>:'y,'zs\/^\\(\\s*\\) @\/\\1\/e<CR>:'y,'zs\/ @\/\/eg<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_adcom	<SID>WS:'a,.v/^\s*\/[/*]/s/\/[*/]\*\=/@&@/e<CR>:'a,.v/^\s*\/[/*]/s/\*\//@&/e<CR>:'y,'zv/^\s*\/[/*]/s/^\(	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_adcom	<SID>WS:'a,.v\/^\\s*\\\/[\/*]\/s\/\\\/[*\/]\\*\\=\/@&@\/e<CR>:'a,.v\/^\\s*\\\/[\/*]\/s\/\\*\\\/\/@&\/e<CR>:'y,'zv\/^\\s*\\\/[\/*]\/s\/^\\( *\\) @\/\\1@\/e<CR>'zk:call AlignMaps#StdAlign(3)<cr>:'y,'zv\/^\\s*\\\/[\/*]\/s\/^\\(\\s*\\) @\/\\1\/e<CR>:'y,'zs\/ @\/\/eg<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_adec		<SID>WS:'a,'zs/\([^	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_adec		<SID>WS:'a,'zs\/\\([^ \\t\/(]\\)\\([*&]\\)\/\\1 \\2\/e<CR>:'y,'zv\/^\\\/\/s\/\\([^ \\t]\\)\\s\\+\/\\1 \/ge<CR>:'y,'zv\/^\\s*[*\/]\/s\/\\([^\/][*&]\\)\\s\\+\/\\1\/ge<CR>:'y,'zv\/^\\s*[*\/]\/s\/^\\(\\s*\\%(\\K\\k*\\s\\+\\%([a-zA-Z_*(&]\\)\\@=\\)\\+\\)\\([*(&]*\\)\\s*\\([a-zA-Z0-9_()]\\+\\)\\s*\\(\\(\\[.\\{-}]\\)*\\)\\s*\\(=\\)\\=\\s*\\(.\\{-}\\)\\=\\s*;\/\\1@\\2#@\\3\\4@\\6@\\7;@\/e<CR>:'y,'zv\/^\\s*[*\/]\/s\/\\*\\\/\\s*$\/@*\\\/\/e<CR>:'y,'zv\/^\\s*[*\/]\/s\/^\\s\\+\\*\/@@@@@* \/e<CR>:'y,'zv\/^\\s*[*\/]\/s\/^@@@@@\\*\\(.*[^*\/]\\)$\/&@*\/e<CR>'yjma'zk:AlignCtrl v ^\\s*[*\/#]<CR>:call AlignMaps#StdAlign(1)<cr>:'y,'zv\/^\\s*[*\/]\/s\/@ \/\/ge<CR>:'y,'zv\/^\\s*[*\/]\/s\/\\(\\s*\\);\/;\\1\/e<CR>:'y,'zv\/^#\/s\/# \/\/e<CR>:'y,'zv\/^\\s\\+[*\/#]\/s\/\\([^\/*]\\)\\(\\*\\+\\)\\( \\+\\)\/\\1\\3\\2\/e<CR>:'y,'zv\/^\\s\\+[*\/#]\/s\/\\((\\+\\)\\( \\+\\)\\*\/\\2\\1*\/e<CR>:'y,'zv\/^\\s\\+[*\/#]\/s\/^\\(\\s\\+\\) \\*\/\\1*\/e<CR>:'y,'zv\/^\\s\\+[*\/#]\/s\/[ \\t@]*$\/\/e<CR>:'y,'zs\/^[*]\/ *\/e<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_adef		<SID>WS:AlignPush<CR>:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_adef		<SID>WS:AlignPush<CR>:AlignCtrl v ^\\s*\\(\\\/\\*\\<bar>\\\/\\\/\\)<CR>:'a,.v\/^\\s*\\(\\\/\\*\\<bar>\\\/\\\/\\)\/s\/^\\(\\s*\\)#\\(\\s\\)*define\\s*\\(\\I[a-zA-Z_0-9(),]*\\)\\s*\\(.\\{-}\\)\\($\\<Bar>\\\/\\*\\)\/#\\1\\2define @\\3@\\4@\\5\/e<CR>:'a,.v\/^\\s*\\(\\\/\\*\\<bar>\\\/\\\/\\)\/s\/\\($\\<Bar>\\*\\\/\\)\/@&\/e<CR>'zk:call AlignMaps#StdAlign(1)<cr>'yjma'zk:'a,.v\/^\\s*\\(\\\/\\*\\<bar>\\\/\\\/\\)\/s\/ @\/\/g<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_aenum	<SID>WS:'a,'zs/\%([0-9.]\)\s\+\([-+]\=\d\)/\1@\2/ge<CR>:'a,'zs/\.@/\.0@/ge<CR>:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_aenum	<SID>WS:'a,'zs\/\\%([0-9.]\\)\\s\\+\\([-+]\\=\\d\\)\/\\1@\\2\/ge<CR>:'a,'zs\/\\.@\/\\.0@\/ge<CR>:AlignCtrl wmp0P0r<CR>:'a,'zAlign [,@]<CR>:'a,'zs\/@\/ \/ge<CR>:'a,'zs\/\\(,\\)\\(\\s\\+\\)\\([-0-9.,eE+]\\+\\)\/\\1\\3\\2\/ge<CR>:'a,'zs\/\\([eE]\\)\\(\\s\\+\\)\\([0-9+\\-+]\\+\\)\/\\1\\3\\2\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_afnc		:<c-u>set	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_afnc		:<c-u>set lz<CR>:silent call AlignMaps#Afnc()<CR>:set nolz<CR>$/;"	m	language:Vim
+<Plug>AM_aocom	<SID>WS:AlignPush<CR>:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_aocom	<SID>WS:AlignPush<CR>:AlignCtrl g \/[*\/]<CR>:exe "norm \\<Plug>AM_acom"<cr>:AlignPop<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ascom	<SID>WS:'a,.s/\/[*/]/@&@/e<CR>:'a,.s/\*\//@&/e<CR>:silent!	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ascom	<SID>WS:'a,.s\/\\\/[*\/]\/@&@\/e<CR>:'a,.s\/\\*\\\/\/@&\/e<CR>:silent! 'a,.g\/^\\s*@\\\/[*\/]\/s\/@\/\/ge<CR>:AlignCtrl v ^\\s*\\\/[*\/]<CR>:AlignCtrl g \\\/[*\/]<CR>'zk:call AlignMaps#StdAlign(2)<cr>:'y,'zs\/^\\(\\s*\\) @\/\\1\/e<CR>:'y,'zs\/ @\/\/eg<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_aunum	<SID>WS:'a,'zs/\%([0-9.]\)\s\+\zs\([-+.]\=\d\)/@\1/ge<CR>:'a,'zs/\(\(^\|\s\)\d\+\)\(\s\+\)@/\1@\3@/ge<CR>:'a,'zs/\.@/\.0@/ge<CR>:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_aunum	<SID>WS:'a,'zs\/\\%([0-9.]\\)\\s\\+\\zs\\([-+.]\\=\\d\\)\/@\\1\/ge<CR>:'a,'zs\/\\(\\(^\\|\\s\\)\\d\\+\\)\\(\\s\\+\\)@\/\\1@\\3@\/ge<CR>:'a,'zs\/\\.@\/\\.0@\/ge<CR>:AlignCtrl wmp0P0r<CR>:'a,'zAlign [.@]<CR>:'a,'zs\/@\/ \/ge<CR>:'a,'zs\/\\(\\.\\)\\(\\s\\+\\)\\([0-9.,eE+]\\+\\)\/\\1\\3\\2\/ge<CR>:'a,'zs\/\\([eE]\\)\\(\\s\\+\\)\\([0-9+\\-+]\\+\\)\/\\1\\3\\2\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_m=		<SID>WS:'a,'zs/\s\+\([*/+\-%<Bar>&\~^]\==\)/	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_m=		<SID>WS:'a,'zs\/\\s\\+\\([*\/+\\-%<Bar>&\\~^]\\==\\)\/ \\1\/e<CR>:'a,'zs@ \\+\\([*\/+\\-%<Bar>&\\~^]\\)=@\\1=@ge<CR>:'a,'zs\/==\/\\="\\<Char-0x0f>\\<Char-0x0f>"\/ge<CR>:'a,'zs\/!=\/\\="!\\<Char-0x0f>"\/ge<CR>'zk:AlignCtrl mIp1P1=l =<CR>:AlignCtrl g =<CR>:'a,'z-1Align<CR>:'a,'z-1s@\\([*\/+\\-%<Bar>&\\~^!=]\\)\\( \\+\\)=@\\2\\1=@ge<CR>:'a,'z-1s\/\\( \\+\\);\/;\\1\/ge<CR>:'a,'z-s\/%\\ze[^=]\/ @%@ \/e<CR>'zk:call AlignMaps#StdAlign(1)<cr>:'y,'zs\/^\\(\\s*\\) @\/\\1\/e<CR>:'a,'z-1s\/\\xff\/=\/ge<CR>:'y,'zs\/ @\/\/eg<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t|		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t|		<SID>WS:AlignCtrl mIp0P0=l <Bar><CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t#		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t#		<SID>WS:AlignCtrl mIp0P0=l #<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t,		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t,		<SID>WS:AlignCtrl mIp0P1=l ,<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t:		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t:		<SID>WS:AlignCtrl mIp1P1=l :<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t;		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t;		<SID>WS:AlignCtrl mIp0P1=l ;<CR>:'a,.Align<CR>:sil 'y,'zs\/\\( *\\);\/;\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t<		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t<		<SID>WS:AlignCtrl mIp0P0=l <<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t=		<SID>WS:call	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t=		<SID>WS:call AlignMaps#Equals()<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t?		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t?		<SID>WS:AlignCtrl mIp0P0=l ?<CR>:'a,.Align<CR>:.,'zs\/ \\( *\\);\/;\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t@		<SID>WS::call	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t@		<SID>WS::call AlignMaps#StdAlign(1)<cr>:<SID>WE$/;"	m	language:Vim
+<Plug>AM_tab		<SID>WS:'a,.s/^\(\t*\)\(.*\)$/\=submatch(1).escape(substitute(submatch(2),'\t',"\<Char-0x0f>",'g'),'\')/<CR>:if	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_tab		<SID>WS:'a,.s\/^\\(\\t*\\)\\(.*\\)$\/\\=submatch(1).escape(substitute(submatch(2),'\\t',"\\<Char-0x0f>",'g'),'\\')\/<CR>:if &ts == 1<bar>exe "AlignCtrl mI=lp0P0 \\<Char-0x0f>"<bar>else<bar>exe "AlignCtrl mI=l \\<Char-0x0f>"<bar>endif<CR>:'a,.Align<CR>:exe "'y+1,'z-1s\/\\<Char-0x0f>\/".((&ts == 1)? '\\t' : ' ')."\/g"<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_tml		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_tml		<SID>WS:AlignCtrl mWp1P0=l \\\\\\@<!\\\\\\s*$<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ts,		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ts,		<SID>WS:AlignCtrl mIp0P1=l #<CR>:'a,.Align<CR>:sil 'y+1,'z-1s\/\\(\\s*\\)#\/,\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ts,		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ts,		<SID>WS:AlignCtrl mIp0P1=l ,<CR>:'a,.Align<CR>:sil 'y+1,'z-1s\/\\(\\s*\\),\/,\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ts:		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ts:		<SID>WS:AlignCtrl mIp1P1=l :<CR>:'a,.Align<CR>:sil 'y+1,'z-1s\/\\(\\s*\\):\/:\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ts;		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ts;		<SID>WS:AlignCtrl mIp1P1=l ;<CR>:'a,.Align<CR>:sil 'y+1,'z-1s\/\\(\\s*\\);\/;\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ts<		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ts<		<SID>WS:AlignCtrl mIp1P1=l <<CR>:'a,.Align<CR>:sil 'y+1,'z-1s\/\\(\\s*\\)<\/<\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_ts=		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_ts=		<SID>WS:AlignCtrl mIp1P1=l =<CR>:'a,.Align<CR>:sil 'y+1,'z-1s\/\\(\\s*\\)=\/=\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_tsp		<SID>WS:'a,.s/^\(\s*\)\(.*\)/\=submatch(1).escape(substitute(submatch(2),'\s\+','@','g'),'\')/<CR>:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_tsp		<SID>WS:'a,.s\/^\\(\\s*\\)\\(.*\\)\/\\=submatch(1).escape(substitute(submatch(2),'\\s\\+','@','g'),'\\')\/<CR>:AlignCtrl mI=lp0P0 @<CR>:'a,.Align<CR>:'y+1,'z-1s\/@\/ \/g<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_tsq		<SID>WS:'a,.AlignReplaceQuotedSpaces<CR>:'a,.s/^\(\s*\)\(.*\)/\=submatch(1).substitute(submatch(2),'\s\+','@','g')/<CR>:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_tsq		<SID>WS:'a,.AlignReplaceQuotedSpaces<CR>:'a,.s\/^\\(\\s*\\)\\(.*\\)\/\\=submatch(1).substitute(submatch(2),'\\s\\+','@','g')\/<CR>:AlignCtrl mIp0P0=l @<CR>:'a,.Align<CR>:'y+1,'z-1s\/[%@]\/ \/g<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_tt		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_tt		<SID>WS:AlignCtrl mIp1P1=l \\\\\\@<!& \\\\\\\\<CR>:'a,.Align<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_t~		<SID>WS:AlignCtrl	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_t~		<SID>WS:AlignCtrl mIp0P0=l ~<CR>:'a,.Align<CR>:'y,'zs\/ \\( *\\);\/;\\1\/ge<CR><SID>WE$/;"	m	language:Vim
+<Plug>AM_w=		<SID>WS:'a,'zg/=/s/\s\+\([*/+\-%<Bar>&\~^]\==\)/	../bundle/Align/plugin/AlignMapsPlugin.vim	/^map <silent> <script> <Plug>AM_w=		<SID>WS:'a,'zg\/=\/s\/\\s\\+\\([*\/+\\-%<Bar>&\\~^]\\==\\)\/ \\1\/e<CR>:'a,'zg\/=\/s@ \\+\\([*\/+\\-%<Bar>&\\~^]\\)=@\\1=@ge<CR>:'a,'zg\/=\/s\/==\/\\="\\<Char-0x0f>\\<Char-0x0f>"\/ge<CR>:'a,'zg\/=\/s\/!=\/\\="!\\<Char-0x0f>"\/ge<CR>'zk:AlignCtrl mWp1P1=l =<CR>:AlignCtrl g =<CR>:'a,'z-1g\/=\/Align<CR>:'a,'z-1g\/=\/s@\\([*\/+\\-%<Bar>&\\~^!=]\\)\\( \\+\\)=@\\2\\1=@ge<CR>:'a,'z-1g\/=\/s\/\\( \\+\\);\/;\\1\/ge<CR>:'a,'z-1v\/^\\s*\\\/[*\/]\/s\/\\\/[*\/]\/@&@\/e<CR>:'a,'z-1v\/^\\s*\\\/[*\/]\/s\/\\*\\\/\/@&\/e<CR>'zk:call AlignMaps#StdAlign(1)<cr>:'y,'zs\/^\\(\\s*\\) @\/\\1\/e<CR>:'a,'z-1g\/=\/s\/\\xff\/=\/ge<CR>:'y,'zg\/=\/s\/ @\/\/eg<CR><SID>WE$/;"	m	language:Vim
+<Plug>AlignMapsWrapperEnd	:call	../bundle/Align/plugin/AlignMapsPlugin.vim	/^nmap <silent> <script> <Plug>AlignMapsWrapperEnd	:call AlignMaps#WrapperEnd()<CR>:set nolz<CR>$/;"	m	language:Vim
+<Plug>AlignMapsWrapperStart	:<c-u>set	../bundle/Align/plugin/AlignMapsPlugin.vim	/^vmap <silent> <script> <Plug>AlignMapsWrapperStart	:<c-u>set lz<CR>:call AlignMaps#WrapperStart(1)<CR>$/;"	m	language:Vim
+<Plug>AlignMapsWrapperStart	:set	../bundle/Align/plugin/AlignMapsPlugin.vim	/^nmap <silent> <script> <Plug>AlignMapsWrapperStart	:set lz<CR>:call AlignMaps#WrapperStart(0)<CR>$/;"	m	language:Vim
+<Plug>BreakPts	../bundle/BreakPts/plugin/breakpts.vim	/^nnoremap <script> <silent> <Plug>BreakPts :BreakPts<cr>$/;"	m	language:Vim
+<Plug>RestoreWinPosn	:call	cecutil.vim	/^nmap <silent> <Plug>RestoreWinPosn	:call RestoreWinPosn()<CR>$/;"	m	language:Vim
+<Plug>SaveWinPosn		:call	cecutil.vim	/^nmap <silent> <Plug>SaveWinPosn		:call SaveWinPosn()<CR>$/;"	m	language:Vim
+<Plug>SuperTabBackward	../bundle/supertab/plugin/supertab.vim	/^  imap <script> <Plug>SuperTabBackward <c-r>=<SID>SuperTab('p')<cr>$/;"	m	language:Vim
+<Plug>SuperTabForward	../bundle/supertab/plugin/supertab.vim	/^  imap <script> <Plug>SuperTabForward <c-r>=<SID>SuperTab('n')<cr>$/;"	m	language:Vim
+<SID>WE	<Plug>AlignMapsWrapperEnd	../bundle/Align/plugin/AlignMapsPlugin.vim	/^ nmap <unique> <SID>WE	<Plug>AlignMapsWrapperEnd$/;"	m	language:Vim
+<SID>WS	<Plug>AlignMapsWrapperStart	../bundle/Align/plugin/AlignMapsPlugin.vim	/^ map <unique> <SID>WS	<Plug>AlignMapsWrapperStart$/;"	m	language:Vim
+<SID>xx	../bundle/Taglist/plugin/taglist.vim	/^    map <SID>xx <SID>xx$/;"	m	language:Vim
+<c-n>	../bundle/supertab/plugin/supertab.vim	/^    imap <c-n> <Plug>SuperTabForward$/;"	m	language:Vim
+<c-p>	../bundle/supertab/plugin/supertab.vim	/^    imap <c-p> <Plug>SuperTabBackward$/;"	m	language:Vim
+<c-r><tab>	../bundle/SnipMate/after/plugin/snipMate.vim	/^ino <silent> <c-r><tab> <c-r>=ShowAvailableSnips()<cr>$/;"	m	language:Vim
+<c-x>	../bundle/supertab/plugin/supertab.vim	/^  imap <c-x> <c-r>=<SID>ManualCompletionEnter()<cr>$/;"	m	language:Vim
+<cr>	../bundle/supertab/plugin/supertab.vim	/^      inoremap <cr> <c-r>=<SID>SelectCompletion(1)<cr>$/;"	m	language:Vim
+<s-tab>	../bundle/SnipMate/after/plugin/snipMate.vim	/^ino <silent> <s-tab> <c-r>=BackwardsSnippet()<cr>$/;"	m	language:Vim
+<tab>	../bundle/SnipMate/after/plugin/snipMate.vim	/^ino <silent> <tab> <c-r>=TriggerSnippet()<cr>$/;"	m	language:Vim
+AddBreakPoint	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:AddBreakPoint(name, mode, browserMode, brkLine)$/;"	f	language:Vim
+AddLeftDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:AddLeftDelim(delim, theLine)$/;"	f	language:Vim
+AddLeftDelimAligned	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:AddLeftDelimAligned(delim, theLine, alignIndx)$/;"	f	language:Vim
+AddRightDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:AddRightDelim(delim, theLine)$/;"	f	language:Vim
+AddRightDelimAligned	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:AddRightDelimAligned(delim, theLine, alignIndx)$/;"	f	language:Vim
+Align	../bundle/Align/plugin/AlignPlugin.vim	/^com! -bang -range -nargs=* Align <line1>,<line2>call Align#Align(<bang>0,<q-args>)$/;"	c	language:Vim
+Align#Align	../bundle/Align/autoload/Align.vim	/^fun! Align#Align(hasctrl,...) range$/;"	f	language:Vim
+Align#AlignCtrl	../bundle/Align/autoload/Align.vim	/^fun! Align#AlignCtrl(...)$/;"	f	language:Vim
+Align#AlignPop	../bundle/Align/autoload/Align.vim	/^fun! Align#AlignPop()$/;"	f	language:Vim
+Align#AlignPush	../bundle/Align/autoload/Align.vim	/^fun! Align#AlignPush()$/;"	f	language:Vim
+Align#AlignReplaceQuotedSpaces	../bundle/Align/autoload/Align.vim	/^fun! Align#AlignReplaceQuotedSpaces() $/;"	f	language:Vim
+AlignCtrl	../bundle/Align/plugin/AlignPlugin.vim	/^com!              -nargs=* AlignCtrl call Align#AlignCtrl(<q-args>)$/;"	c	language:Vim
+AlignMaps#Afnc	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#Afnc()$/;"	f	language:Vim
+AlignMaps#CharJoiner	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#CharJoiner(chr)$/;"	f	language:Vim
+AlignMaps#Equals	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#Equals() range$/;"	f	language:Vim
+AlignMaps#FixMultiDec	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#FixMultiDec()$/;"	f	language:Vim
+AlignMaps#StdAlign	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#StdAlign(mode) range$/;"	f	language:Vim
+AlignMaps#WrapperEnd	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#WrapperEnd() range$/;"	f	language:Vim
+AlignMaps#WrapperStart	../bundle/Align/autoload/AlignMaps.vim	/^fun! AlignMaps#WrapperStart(vis) range$/;"	f	language:Vim
+AlignPop	../bundle/Align/plugin/AlignPlugin.vim	/^com!              -nargs=0 AlignPop  call Align#AlignPop()$/;"	c	language:Vim
+AlignPush	../bundle/Align/plugin/AlignPlugin.vim	/^com!              -nargs=0 AlignPush call Align#AlignPush()$/;"	c	language:Vim
+AlignReplaceQuotedSpaces	../bundle/Align/plugin/AlignPlugin.vim	/^com!       -range -nargs=0 AlignReplaceQuotedSpaces <line1>,<line2>call Align#AlignReplaceQuotedSpaces()$/;"	c	language:Vim
+Animate	matrix.vim	/^function! s:Animate()$/;"	f	language:Vim
+AppendCommentToLine	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:AppendCommentToLine()$/;"	f	language:Vim
+BPBreak	../bundle/BreakPts/plugin/breakpts.vim	/^function! BPBreak(offset)$/;"	f	language:Vim
+BPBreakIf	../bundle/BreakPts/plugin/breakpts.vim	/^function! BPBreakIf(cond, offset)$/;"	f	language:Vim
+BPBreakIfCount	../bundle/BreakPts/plugin/breakpts.vim	/^function! BPBreakIfCount(skipCnt, expireCnt, cond, offset)$/;"	f	language:Vim
+BPDeBreak	../bundle/BreakPts/plugin/breakpts.vim	/^function! BPDeBreak(offset)$/;"	f	language:Vim
+BackwardsSnippet	../bundle/SnipMate/plugin/snipMate.vim	/^fun! BackwardsSnippet()$/;"	f	language:Vim
+BinSearchToAppend	../bundle/BreakPts/autoload/genutils.vim	/^function! s:BinSearchToAppend(start, end, line, cmp, direction)$/;"	f	language:Vim
+BinSearchToAppend2	../bundle/BreakPts/autoload/genutils.vim	/^function! s:BinSearchToAppend2(start, end, line, cmp, direction, accessor,$/;"	f	language:Vim
+BreakPts	../bundle/BreakPts/plugin/breakpts.vim	/^command! -nargs=? BreakPts :call breakpts#BrowserMain(<f-args>)$/;"	c	language:Vim
+BreakPtsClearAll	../bundle/BreakPts/plugin/breakpts.vim	/^command! BreakPtsClearAll :call breakpts#ClearAllBrkPts()$/;"	c	language:Vim
+BreakPtsClearBPCounters	../bundle/BreakPts/plugin/breakpts.vim	/^command! BreakPtsClearBPCounters :call breakpts#ClearBPCounters()$/;"	c	language:Vim
+BreakPtsLocal	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:BreakPtsLocal(...)$/;"	f	language:Vim
+BreakPtsSave	../bundle/BreakPts/plugin/breakpts.vim	/^command! -nargs=1 BreakPtsSave :call breakpts#SaveBrkPts(<f-args>)$/;"	c	language:Vim
+BreakPtsSetupBuf	../bundle/BreakPts/plugin/breakpts.vim	/^command! -nargs=0 BreakPtsSetupBuf :call breakpts#SetupBuf()$/;"	c	language:Vim
+BreakPts_IsValid	../bundle/BreakPts/plugin/breakpts.vim	/^function! BreakPts_IsValid()$/;"	f	language:Vim
+BreakPts_ReSize	../bundle/BreakPts/plugin/breakpts.vim	/^function! BreakPts_ReSize()$/;"	f	language:Vim
+BreakPts_Refresh	../bundle/BreakPts/plugin/breakpts.vim	/^function! BreakPts_Refresh()$/;"	f	language:Vim
+BreakPts_Start	../bundle/BreakPts/plugin/breakpts.vim	/^function! BreakPts_Start()$/;"	f	language:Vim
+Breakadd	../bundle/BreakPts/plugin/breakpts.vim	/^command! -nargs=+ -complete=custom,breakpts#BreakAddComplete Breakadd :breakadd <args>$/;"	c	language:Vim
+Breakdel	../bundle/BreakPts/plugin/breakpts.vim	/^command! -nargs=+ -complete=custom,breakpts#BreakDelComplete Breakdel :breakdel <args>$/;"	c	language:Vim
+Browser	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:Browser(force, browserMode, id, name) " {{{$/;"	f	language:Vim
+BufHasErrors	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:BufHasErrors()$/;"	f	language:Vim
+BufHasErrorsOrWarnings	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:BufHasErrorsOrWarnings()$/;"	f	language:Vim
+BufHasErrorsOrWarningsToDisplay	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:BufHasErrorsOrWarningsToDisplay()$/;"	f	language:Vim
+BufLineAccessor	../bundle/BreakPts/autoload/genutils.vim	/^function! s:BufLineAccessor(line, context)$/;"	f	language:Vim
+BufLineMover	../bundle/BreakPts/autoload/genutils.vim	/^function! s:BufLineMover(from, to, context)$/;"	f	language:Vim
+BufLineSwapper	../bundle/BreakPts/autoload/genutils.vim	/^function! s:BufLineSwapper(line1, line2, context)$/;"	f	language:Vim
+BufSignIds	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:BufSignIds()$/;"	f	language:Vim
+BuildTabStops	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:BuildTabStops(snip, lnum, col, indent)$/;"	f	language:Vim
+CacheErrors	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:CacheErrors()$/;"	f	language:Vim
+CaptureKeyPresses	../bundle/supertab/plugin/supertab.vim	/^function! s:CaptureKeyPresses()$/;"	f	language:Vim
+Char2Num	../bundle/BreakPts/autoload/genutils.vim	/^function! s:Char2Num(c)$/;"	f	language:Vim
+CheckPKG	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:CheckPKG(name, ...)$/;"	f	language:Vim
+CheckPhp	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:CheckPhp()$/;"	f	language:Vim
+CheckPython	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:CheckPython()$/;"	f	language:Vim
+CheckRuby	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:CheckRuby()$/;"	f	language:Vim
+Checkable	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:Checkable(ft)$/;"	f	language:Vim
+Choose	../bundle/Matchit/plugin/matchit.vim	/^fun! s:Choose(patterns, string, comma, branch, prefix, suffix, ...)$/;"	f	language:Vim
+ChooseSnippet	../bundle/SnipMate/plugin/snipMate.vim	/^fun s:ChooseSnippet(scope, trigger)$/;"	f	language:Vim
+CleanUp	../bundle/Matchit/plugin/matchit.vim	/^fun! s:CleanUp(options, mode, startline, startcol, ...)$/;"	f	language:Vim
+Cleanup	matrix.vim	/^function! s:Cleanup()$/;"	f	language:Vim
+ClearSigns	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ClearSigns()$/;"	f	language:Vim
+Close	../bundle/SnipMate/ftplugin/html_snip_helper.vim	/^fun! Close()$/;"	f	language:Vim
+CommandLineCompletion	../bundle/supertab/plugin/supertab.vim	/^function! s:CommandLineCompletion()$/;"	f	language:Vim
+CommentBlock	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CommentBlock(top, bottom, lSide, rSide, forceNested ) range$/;"	f	language:Vim
+CommentLines	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CommentLines(forceNested, alignLeft, alignRight, firstLine, lastLine) range$/;"	f	language:Vim
+CommentLinesMinimal	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CommentLinesMinimal(firstLine, lastLine) range$/;"	f	language:Vim
+CommentLinesSexy	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CommentLinesSexy(topline, bottomline) range$/;"	f	language:Vim
+CommentLinesToggle	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CommentLinesToggle(forceNested, alignLeft, alignRight, firstLine, lastLine) range$/;"	f	language:Vim
+CommentRegion	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CommentRegion(topLine, topCol, bottomLine, bottomCol, forceNested) range$/;"	f	language:Vim
+CompletionReset	../bundle/supertab/plugin/supertab.vim	/^function! s:CompletionReset(char)$/;"	f	language:Vim
+ContextCompletion	../bundle/supertab/plugin/supertab.vim	/^function! s:ContextCompletion()$/;"	f	language:Vim
+ContextDiscover	../bundle/supertab/plugin/supertab.vim	/^function! s:ContextDiscover()$/;"	f	language:Vim
+ContextText	../bundle/supertab/plugin/supertab.vim	/^function! s:ContextText()$/;"	f	language:Vim
+ConvertLeadingSpacesToTabs	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:ConvertLeadingSpacesToTabs(line)$/;"	f	language:Vim
+ConvertLeadingTabsToSpaces	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:ConvertLeadingTabsToSpaces(line)$/;"	f	language:Vim
+Count	../bundle/Matchit/plugin/matchit.vim	/^fun! s:Count(string, pattern, ...)$/;"	f	language:Vim
+Count	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:Count(haystack, needle)$/;"	f	language:Vim
+CountNonESCedOccurances	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:CountNonESCedOccurances(str, searchstr, escChar)$/;"	f	language:Vim
+CreateObject	matrix.vim	/^function! s:CreateObject(i)$/;"	f	language:Vim
+DM	cecutil.vim	/^com! -bar -nargs=1 DM	call DestroyMark(<q-args>)$/;"	c	language:Vim
+Debug	../bundle/BreakPts/plugin/breakpts.vim	/^command! -complete=command -nargs=+ Debug :debug <args>$/;"	c	language:Vim
+Decho	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=+ -complete=expression Decho	call Decho(<args>)$/;"	c	language:Vim
+Decho	../bundle/Decho/plugin/Decho.vim	/^fun! Decho(...)$/;"	f	language:Vim
+DechoDepth	../bundle/Decho/plugin/Decho.vim	/^fun! DechoDepth(depth)$/;"	f	language:Vim
+DechoMsg	../bundle/Decho/plugin/Decho.vim	/^fun! s:DechoMsg(onoff,...)$/;"	f	language:Vim
+DechoMsgOff	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 DechoMsgOff					call s:DechoMsg(0)$/;"	c	language:Vim
+DechoMsgOn	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 DechoMsgOn					call s:DechoMsg(1,expand("<sfile>"))$/;"	c	language:Vim
+DechoOff	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 -range=% DechoOff				call DechoOff(<line1>,<line2>)$/;"	c	language:Vim
+DechoOff	../bundle/Decho/plugin/Decho.vim	/^fun! DechoOff(line1,line2)$/;"	f	language:Vim
+DechoOn	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 -range=% DechoOn				call DechoOn(<line1>,<line2>)$/;"	c	language:Vim
+DechoOn	../bundle/Decho/plugin/Decho.vim	/^fun! DechoOn(line1,line2)$/;"	f	language:Vim
+DechoPause	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 DechoPause					call DechoPause()$/;"	c	language:Vim
+DechoPause	../bundle/Decho/plugin/Decho.vim	/^fun! DechoPause()$/;"	f	language:Vim
+DechoRemOff	../bundle/Decho/plugin/Decho.vim	/^ com! -nargs=0 DechoRemOff					call s:DechoRemote(0)$/;"	c	language:Vim
+DechoRemOn	../bundle/Decho/plugin/Decho.vim	/^ com! -nargs=0 DechoRemOn					call s:DechoRemote(1,expand("<sfile>"))$/;"	c	language:Vim
+DechoRemote	../bundle/Decho/plugin/Decho.vim	/^ fun! s:DechoRemote(mode,...)$/;"	f	language:Vim
+DechoSep	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=? DechoSep						call DechoSep(<args>)$/;"	c	language:Vim
+DechoSep	../bundle/Decho/plugin/Decho.vim	/^fun! DechoSep(...)$/;"	f	language:Vim
+DechoTab	../bundle/Decho/plugin/Decho.vim	/^ fun! s:DechoTab(mode,...)$/;"	f	language:Vim
+DechoTabOff	../bundle/Decho/plugin/Decho.vim	/^ com! -nargs=? DechoTabOff                  set lz|call s:DechoTab(0)|set nolz$/;"	c	language:Vim
+DechoTabOn	../bundle/Decho/plugin/Decho.vim	/^ com! -nargs=? DechoTabOn                   set lz|call s:DechoTab(1,expand("<sfile>"))|set nolz$/;"	c	language:Vim
+DechoVarOff	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 DechoVarOff					call s:DechoVarOff()$/;"	c	language:Vim
+DechoVarOff	../bundle/Decho/plugin/Decho.vim	/^fun! s:DechoVarOff()$/;"	f	language:Vim
+DechoVarOn	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=? DechoVarOn					call s:DechoVarOn(expand("<sfile>"),<args>)$/;"	c	language:Vim
+DechoVarOn	../bundle/Decho/plugin/Decho.vim	/^fun! s:DechoVarOn(...)$/;"	f	language:Vim
+DefMap	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:DefMap(mapType, mapKeyName, defaultKey, cmdStr) " {{{$/;"	f	language:Vim
+DefineSnips	../bundle/SnipMate/plugin/snipMate.vim	/^fun s:DefineSnips(dir, aliasft, realft)$/;"	f	language:Vim
+DestroyMark	cecutil.vim	/^fun! DestroyMark(markname)$/;"	f	language:Vim
+Dfunc	../bundle/Decho/plugin/Decho.vim	/^fun! Dfunc(...)$/;"	f	language:Vim
+Dhide	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 Dhide    						call s:Dhide(1)$/;"	c	language:Vim
+Dhide	../bundle/Decho/plugin/Decho.vim	/^fun! <SID>Dhide(hide)$/;"	f	language:Vim
+Disable	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:Disable(...)$/;"	f	language:Vim
+DoAction	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:DoAction() " {{{$/;"	f	language:Vim
+DoComment	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:DoComment(forceNested, isVisual, alignLeft, alignRight, type) range$/;"	f	language:Vim
+DoesBlockHaveDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:DoesBlockHaveDelim(delim, top, bottom)$/;"	f	language:Vim
+DoesBlockHaveMultipartDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:DoesBlockHaveMultipartDelim(top, bottom)$/;"	f	language:Vim
+DrawObject	matrix.vim	/^function! s:DrawObject(i)$/;"	f	language:Vim
+Dredir	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=+ -complete=expression Dredir	call Dredir(<args>)$/;"	c	language:Vim
+Dredir	../bundle/Decho/plugin/Decho.vim	/^fun! Dredir(...)$/;"	f	language:Vim
+Dret	../bundle/Decho/plugin/Decho.vim	/^fun! Dret(...)$/;"	f	language:Vim
+Dsep	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=? Dsep						    call DechoSep(<args>)$/;"	c	language:Vim
+Dshow	../bundle/Decho/plugin/Decho.vim	/^com! -nargs=0 Dshow    						call s:Dhide(0)$/;"	c	language:Vim
+Enable	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:Enable(...)$/;"	f	language:Vim
+EnableLongestEnhancement	../bundle/supertab/plugin/supertab.vim	/^function! s:EnableLongestEnhancement()$/;"	f	language:Vim
+Errors	../bundle/Syntastic/plugin/syntastic.vim	/^command Errors call s:ShowLocList()$/;"	c	language:Vim
+ErrorsForType	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:ErrorsForType(type)$/;"	f	language:Vim
+Esc	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:Esc(str)$/;"	f	language:Vim
+EvalExpr	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:EvalExpr(expr) " {{{$/;"	f	language:Vim
+ExecCmd	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ExecCmd(cmd) " {{{$/;"	f	language:Vim
+ExecDebugCmd	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ExecDebugCmd(cmd) " {{{$/;"	f	language:Vim
+ExecWinCmdNoEa	../bundle/BreakPts/autoload/genutils.vim	/^function! s:ExecWinCmdNoEa(winCmd)$/;"	f	language:Vim
+ExpandMap	../bundle/supertab/plugin/supertab.vim	/^function! s:ExpandMap(map)$/;"	f	language:Vim
+ExtractFuncName	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ExtractFuncName(funcName)$/;"	f	language:Vim
+ExtractSID	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ExtractSID(funcName)$/;"	f	language:Vim
+ExtractSnips	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ExtractSnips(dir, ft)$/;"	f	language:Vim
+ExtractSnipsFile	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ExtractSnipsFile(file, ft)$/;"	f	language:Vim
+Filename	../bundle/SnipMate/autoload/snipMate.vim	/^fun! Filename(...)$/;"	f	language:Vim
+FindBoundingLinesOfSexyCom	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:FindBoundingLinesOfSexyCom(lineNum)$/;"	f	language:Vim
+FindBufferForName	../bundle/BreakPts/autoload/genutils.vim	/^function! s:FindBufferForName(fileName)$/;"	f	language:Vim
+FindDelimiterIndex	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:FindDelimiterIndex(delimiter, line)$/;"	f	language:Vim
+FixInitWhite	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:FixInitWhite() " {{{$/;"	f	language:Vim
+Foldsearch	Foldedsearch.vim	/^function! Foldsearch(search)$/;"	f	language:Vim
+ForwardBack	../bundle/supertab/plugin/supertab.vim	/^  function! s:ForwardBack(command, map)$/;"	f	language:Vim
+Fs	Foldedsearch.vim	/^command! -nargs=+ -complete=command Fs call Foldsearch(<q-args>)$/;"	c	language:Vim
+GUDebugEcho	../bundle/BreakPts/autoload/genutils.vim	/^command! -complete=file -nargs=* GUDebugEcho :echo <q-args>$/;"	c	language:Vim
+GetBrklistLineParser	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetBrklistLineParser(line, nameVar, modeVar)$/;"	f	language:Vim
+GetBrowserMode	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetBrowserMode() " {{{$/;"	f	language:Vim
+GetCanCommentLine	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetCanCommentLine(forceNested, lineNum)$/;"	f	language:Vim
+GetCanToggleCommentLine	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetCanToggleCommentLine(forceNested, lineNum)$/;"	f	language:Vim
+GetFuncName	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetFuncName()$/;"	f	language:Vim
+GetIndxInSubstr	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetIndxInSubstr(indx, substr, str)$/;"	f	language:Vim
+GetLastIndexOfDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetLastIndexOfDelim(delim, str)$/;"	f	language:Vim
+GetLeft	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetLeft(alt, space, esc)$/;"	f	language:Vim
+GetLeftMostIndx	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetLeftMostIndx(countCommentedLines, countEmptyLines, topline, bottomline)$/;"	f	language:Vim
+GetListedFunction	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetListedFunction() " Includes SID.$/;"	f	language:Vim
+GetListedScript	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetListedScript()$/;"	f	language:Vim
+GetListedScriptId	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetListedScriptId()$/;"	f	language:Vim
+GetListingId	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetListingId()$/;"	f	language:Vim
+GetListingName	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetListingName()$/;"	f	language:Vim
+GetMessage	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetMessage(msg, name, brkLine)$/;"	f	language:Vim
+GetNextWinnrInStack	../bundle/BreakPts/autoload/genutils.vim	/^function! s:GetNextWinnrInStack(dir)$/;"	f	language:Vim
+GetNumLinesInBuf	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetNumLinesInBuf()$/;"	f	language:Vim
+GetPlugVarIfExists	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetPlugVarIfExists(curScript) " {{{$/;"	f	language:Vim
+GetRemoteContext	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetRemoteContext() " {{{$/;"	f	language:Vim
+GetRight	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetRight(alt, space, esc)$/;"	f	language:Vim
+GetRightMostIndx	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetRightMostIndx(countCommentedLines, countEmptyLines, topline, bottomline)$/;"	f	language:Vim
+GetScript	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetScript()$/;"	f	language:Vim
+GetScriptId	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetScriptId()$/;"	f	language:Vim
+GetSexyComLeft	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetSexyComLeft(space, esc)$/;"	f	language:Vim
+GetSexyComMarker	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetSexyComMarker(space, esc)$/;"	f	language:Vim
+GetSexyComRight	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetSexyComRight(space, esc)$/;"	f	language:Vim
+GetShell	../bundle/Syntastic/syntax_checkers/sh.vim	/^function! GetShell()$/;"	f	language:Vim
+GetSnippet	../bundle/SnipMate/plugin/snipMate.vim	/^fun s:GetSnippet(word, scope)$/;"	f	language:Vim
+GetSnippets	../bundle/SnipMate/plugin/snipMate.vim	/^fun! GetSnippets(dir, filetypes)$/;"	f	language:Vim
+GetTabbedCol	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetTabbedCol(line, col)$/;"	f	language:Vim
+GetUntabbedCol	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:GetUntabbedCol(line, col)$/;"	f	language:Vim
+GetVerilog_SystemVerilogIndent	../bundle/verilog_systemverilog/indent/verilog_systemverilog.vim	/^function GetVerilog_SystemVerilogIndent()$/;"	f	language:Vim
+GetVimCmdOutput	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:GetVimCmdOutput(cmd) " {{{$/;"	f	language:Vim
+GetWinDim	../bundle/BreakPts/autoload/genutils.vim	/^function! s:GetWinDim(dir, win)$/;"	f	language:Vim
+GoWinbufnr	cecutil.vim	/^fun! GoWinbufnr(bufnum)$/;"	f	language:Vim
+HLTest	../bundle/Decho/syntax/Decho.vim	/^  fun! s:HLTest(hlname)$/;"	f	language:Vim
+HasCStyleComments	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:HasCStyleComments()$/;"	f	language:Vim
+HasLeadingTab	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:HasLeadingTab(str)$/;"	f	language:Vim
+HasMultipartDelims	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:HasMultipartDelims()$/;"	f	language:Vim
+HiLink	../bundle/verilog_systemverilog/syntax/verilog.vim	/^      command -nargs=+ HiLink hi def link <args>$/;"	c	language:Vim
+HiLink	../bundle/verilog_systemverilog/syntax/verilog.vim	/^      command -nargs=+ HiLink hi link <args>$/;"	c	language:Vim
+HiLink	../bundle/verilog_systemverilog/syntax/verilog_systemverilog.vim	/^      command -nargs=+ HiLink hi def link <args>$/;"	c	language:Vim
+HiLink	../bundle/verilog_systemverilog/syntax/verilog_systemverilog.vim	/^      command -nargs=+ HiLink hi link <args>$/;"	c	language:Vim
+Init	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:Init()$/;"	f	language:Vim
+Init	../bundle/supertab/plugin/supertab.vim	/^function! s:Init()$/;"	f	language:Vim
+Init	matrix.vim	/^function! s:Init()$/;"	f	language:Vim
+InitBuffer	../bundle/supertab/plugin/supertab.vim	/^function! s:InitBuffer()$/;"	f	language:Vim
+InitVariable	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:InitVariable(var, value)$/;"	f	language:Vim
+InsertRefs	../bundle/Matchit/plugin/matchit.vim	/^fun! s:InsertRefs(groupBR, prefix, group, suffix, matchline)$/;"	f	language:Vim
+Install	../bundle/totd/plugin/totd.vim	/^fun! s:Install(rtDir)$/;"	f	language:Vim
+InstallDocumentation	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:InstallDocumentation(full_name, revision)$/;"	f	language:Vim
+InvertComment	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:InvertComment(firstLine, lastLine) range$/;"	f	language:Vim
+InvokeFuncs	../bundle/BreakPts/autoload/genutils.vim	/^function! s:InvokeFuncs(funcList)$/;"	f	language:Vim
+IsCommented	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsCommented(left, right, line)$/;"	f	language:Vim
+IsCommentedFromStartOfLine	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsCommentedFromStartOfLine(left, line)$/;"	f	language:Vim
+IsCommentedNormOrSexy	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsCommentedNormOrSexy(lineNum)$/;"	f	language:Vim
+IsCommentedOuttermost	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsCommentedOuttermost(left, right, leftAlt, rightAlt, line)$/;"	f	language:Vim
+IsDelimValid	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsDelimValid(delimiter, delIndx, line)$/;"	f	language:Vim
+IsEscaped	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsEscaped(str, indx, escChar)$/;"	f	language:Vim
+IsNumEven	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsNumEven(num)$/;"	f	language:Vim
+IsSexyComment	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:IsSexyComment(topline, bottomline)$/;"	f	language:Vim
+Japi	Foldedsearch.vim	/^command! Japi Fs public\\|protected\\|private$/;"	c	language:Vim
+KeepCase	keepcase.vim	/^fun! KeepCase( oldword, newword)$/;"	f	language:Vim
+KeepCaseSameLen	keepcase.vim	/^fun! KeepCaseSameLen( oldword, newword)$/;"	f	language:Vim
+List_function	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:List_function(sid, funcName) " {{{$/;"	f	language:Vim
+List_script	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:List_script(curScriptId, curScript) " {{{$/;"	f	language:Vim
+MakeSnip	../bundle/SnipMate/plugin/snipMate.vim	/^fun! MakeSnip(scope, trigger, content, ...)$/;"	f	language:Vim
+MakeSpace	../bundle/Align/autoload/Align.vim	/^fun! s:MakeSpace(spacecnt)$/;"	f	language:Vim
+ManualCompletionEnter	../bundle/supertab/plugin/supertab.vim	/^function! s:ManualCompletionEnter()$/;"	f	language:Vim
+MapDelimiters	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:MapDelimiters(left, right)$/;"	f	language:Vim
+MapDelimitersWithAlternative	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:MapDelimitersWithAlternative(left, right, leftAlt, rightAlt, useAlt)$/;"	f	language:Vim
+MarkBreakPoints	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:MarkBreakPoints(name)$/;"	f	language:Vim
+MarkCurLineInCntxt	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:MarkCurLineInCntxt()$/;"	f	language:Vim
+Match	../bundle/BreakPts/autoload/genutils.vim	/^function! s:Match(expr, pat, start)$/;"	f	language:Vim
+MatchDebug	../bundle/Matchit/plugin/matchit.vim	/^  command! -nargs=0 MatchDebug call s:Match_debug()$/;"	c	language:Vim
+Match_debug	../bundle/Matchit/plugin/matchit.vim	/^fun! s:Match_debug()$/;"	f	language:Vim
+Match_wrapper	../bundle/Matchit/plugin/matchit.vim	/^function! s:Match_wrapper(word, forward, mode) range$/;"	f	language:Vim
+Matrix	matrix.vim	/^   command! Matrix call Matrix()$/;"	c	language:Vim
+Matrix	matrix.vim	/^function! Matrix()$/;"	f	language:Vim
+MultiMatch	../bundle/Matchit/plugin/matchit.vim	/^fun! s:MultiMatch(spflag, mode)$/;"	f	language:Vim
+MyScriptId	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:MyScriptId()$/;"	f	language:Vim
+NERD_alt_com_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_alt_com_map="<new mapping>"$/;"	v	language:Vim
+NERD_append_com_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_append_com_map="<new mapping>"$/;"	v	language:Vim
+NERD_block_com_after_right	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_block_com_after_right=1$/;"	v	language:Vim
+NERD_com_align_both_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_align_both_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_align_left_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_align_left_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_align_right_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_align_right_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_in_insert_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_in_insert_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_invert_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_invert_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_minimal_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_minimal_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_nest_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_nest_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_sexy_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_sexy_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_toggle_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_toggle_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_line_yank_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_line_yank_map="<new mapping>"$/;"	v	language:Vim
+NERD_com_to_end_of_line_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_com_to_end_of_line_map="<new mapping>"$/;"	v	language:Vim
+NERD_comment_whole_lines_in_v_mode	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_comment_whole_lines_in_v_mode=1$/;"	v	language:Vim
+NERD_comment_whole_lines_in_v_mode	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_comment_whole_lines_in_v_mode=2$/;"	v	language:Vim
+NERD_create_h_filetype	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_create_h_filetype = 1$/;"	v	language:Vim
+NERD_dont_remove_alt_coms	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_dont_remove_alt_coms=1$/;"	v	language:Vim
+NERD_lPlace	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_lPlace="FOO" $/;"	v	language:Vim
+NERD_mapleader	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_mapleader = ',x'$/;"	v	language:Vim
+NERD_rPlace	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_rPlace="BAR" $/;"	v	language:Vim
+NERD_shut_up	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_shut_up=1$/;"	v	language:Vim
+NERD_uncom_line_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_uncom_line_map="<leader>foo"$/;"	v	language:Vim
+NERD_uncom_line_map	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_uncom_line_map="<new mapping>"$/;"	v	language:Vim
+NERD_use_c_style_java_comments	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_use_c_style_java_comments=1$/;"	v	language:Vim
+NERD_use_nested_comments_default	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let NERD_use_nested_comments_default=1$/;"	v	language:Vim
+Navigate	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:Navigate(key)$/;"	f	language:Vim
+NavigateBack	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:NavigateBack()$/;"	f	language:Vim
+NavigateForward	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:NavigateForward()$/;"	f	language:Vim
+NerdEcho	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:NerdEcho(msg, typeOfMsg)$/;"	f	language:Vim
+NextBrkPt	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:NextBrkPt(dir) " {{{$/;"	f	language:Vim
+Open	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:Open() " {{{$/;"	f	language:Vim
+OpenListing	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:OpenListing(force, mode, id, name) " {{{$/;"	f	language:Vim
+OpenListingWindow	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:OpenListingWindow(always) " {{{$/;"	f	language:Vim
+OpenScript	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:OpenScript(rtPath) " {{{$/;"	f	language:Vim
+ParseSkip	../bundle/Matchit/plugin/matchit.vim	/^fun! s:ParseSkip(str)$/;"	f	language:Vim
+ParseWords	../bundle/Matchit/plugin/matchit.vim	/^fun! s:ParseWords(groups)$/;"	f	language:Vim
+PersistentVarName	../bundle/BreakPts/autoload/genutils.vim	/^function! s:PersistentVarName(pluginName, persistentVar)$/;"	f	language:Vim
+PlaceDelimitersAndInsBetween	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:PlaceDelimitersAndInsBetween()$/;"	f	language:Vim
+PrependCommentToLine	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:PrependCommentToLine()$/;"	f	language:Vim
+ProcessFile	../bundle/SnipMate/plugin/snipMate.vim	/^fun s:ProcessFile(file, ft, ...)$/;"	f	language:Vim
+ProcessSnippet	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:ProcessSnippet(snip)$/;"	f	language:Vim
+Process_functions_output	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:Process_functions_output(output) " {{{$/;"	f	language:Vim
+QArgSplitter	../bundle/Align/autoload/Align.vim	/^fun! s:QArgSplitter(qarg)$/;"	f	language:Vim
+QArgSplitter	cecutil.vim	/^fun! QArgSplitter(qarg)$/;"	f	language:Vim
+QSortR	../bundle/BreakPts/autoload/genutils.vim	/^function! s:QSortR(start, end, cmp, direction, accessor, swapper, context)$/;"	f	language:Vim
+Quit	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:Quit()$/;"	f	language:Vim
+RM	cecutil.vim	/^com! -bar -nargs=1 RM	call RestoreMark(<q-args>)$/;"	c	language:Vim
+RWP	cecutil.vim	/^com! -bar -nargs=0 RWP	call RestoreWinPosn()$/;"	c	language:Vim
+Rand	matrix.vim	/^function! s:Rand()$/;"	f	language:Vim
+Ref	../bundle/Matchit/plugin/matchit.vim	/^fun! s:Ref(string, d, ...)$/;"	f	language:Vim
+RefreshSigns	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:RefreshSigns()$/;"	f	language:Vim
+RegHandler	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:RegHandler(regex, function, args)$/;"	f	language:Vim
+ReleaseKeyPresses	../bundle/supertab/plugin/supertab.vim	/^function! s:ReleaseKeyPresses()$/;"	f	language:Vim
+ReloadAllSnippets	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ReloadAllSnippets()$/;"	f	language:Vim
+ReloadCurrentScript	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ReloadCurrentScript() " {{{$/;"	f	language:Vim
+ReloadSnippets	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ReloadSnippets(ft)$/;"	f	language:Vim
+RemoveBreakPoint	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:RemoveBreakPoint(name, mode, browserMode, brkLine)$/;"	f	language:Vim
+RemoveDelimiters	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:RemoveDelimiters(left, right, line)$/;"	f	language:Vim
+RemoveSigns	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:RemoveSigns(ids)$/;"	f	language:Vim
+RemoveSnippet	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:RemoveSnippet()$/;"	f	language:Vim
+ReplaceDelims	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:ReplaceDelims(toReplace1, toReplace2, replacor1, replacor2, str)$/;"	f	language:Vim
+ReplaceLeftMostDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:ReplaceLeftMostDelim(toReplace, replacor, str)$/;"	f	language:Vim
+ReplaceRightMostDelim	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:ReplaceRightMostDelim(toReplace, replacor, str)$/;"	f	language:Vim
+Reset	matrix.vim	/^function! s:Reset()$/;"	f	language:Vim
+ResetAllSnippets	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ResetAllSnippets()$/;"	f	language:Vim
+ResetSnippets	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ResetSnippets(ft)$/;"	f	language:Vim
+Resolve	../bundle/Matchit/plugin/matchit.vim	/^fun! s:Resolve(source, target, output)$/;"	f	language:Vim
+RestoreMark	cecutil.vim	/^fun! RestoreMark(markname)$/;"	f	language:Vim
+RestoreScreenState	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:RestoreScreenState()$/;"	f	language:Vim
+RestoreUserMaps	cecutil.vim	/^fun! RestoreUserMaps(suffix)$/;"	f	language:Vim
+RestoreWinPosn	cecutil.vim	/^fun! RestoreWinPosn(...)$/;"	f	language:Vim
+RestoreWindowSettings2	../bundle/BreakPts/autoload/genutils.vim	/^function! s:RestoreWindowSettings2(id)$/;"	f	language:Vim
+Runtime	../bundle/BreakPts/plugin/breakpts.vim	/^command! -bang -nargs=+ -complete=custom,breakpts#RuntimeComplete Runtime :runtime<bang> <args>$/;"	c	language:Vim
+RuntimeCompleteImpl	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:RuntimeCompleteImpl(ArgLead, CmdLine, CursorPos, smartSlash)$/;"	f	language:Vim
+SM	cecutil.vim	/^com! -bar -nargs=1 SM	call SaveMark(<q-args>)$/;"	c	language:Vim
+SNR	../bundle/BreakPts/autoload/genutils.vim	/^function! s:SNR()$/;"	f	language:Vim
+SWP	cecutil.vim	/^com! -bar -nargs=0 SWP	call SaveWinPosn()$/;"	c	language:Vim
+SaveMark	cecutil.vim	/^fun! SaveMark(markname)$/;"	f	language:Vim
+SaveScreenState	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:SaveScreenState()$/;"	f	language:Vim
+SaveUserMaps	cecutil.vim	/^fun! SaveUserMaps(mapmode,maplead,mapchx,suffix)$/;"	f	language:Vim
+SaveWinPosn	cecutil.vim	/^fun! SaveWinPosn(...)$/;"	f	language:Vim
+SearchComplete	SearchComplete.vim	/^function! SearchComplete()$/;"	f	language:Vim
+SearchCompleteStart	SearchComplete.vim	/^function! SearchCompleteStart()$/;"	f	language:Vim
+SearchCompleteStop	SearchComplete.vim	/^function! SearchCompleteStop()$/;"	f	language:Vim
+SearchForSID	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:SearchForSID(funcName) " {{{$/;"	f	language:Vim
+SearchHeaders	../bundle/Syntastic/syntax_checkers/c.vim	/^function! s:SearchHeaders()$/;"	f	language:Vim
+SelectCompletion	../bundle/supertab/plugin/supertab.vim	/^    function! s:SelectCompletion(cr)$/;"	f	language:Vim
+SelectWord	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:SelectWord()$/;"	f	language:Vim
+SetCompletionType	../bundle/supertab/plugin/supertab.vim	/^function! s:SetCompletionType()$/;"	f	language:Vim
+SetDefaultCompletionType	../bundle/supertab/plugin/supertab.vim	/^function! s:SetDefaultCompletionType()$/;"	f	language:Vim
+SetPersistentNumber	../bundle/totd/plugin/totd.vim	/^fun! s:SetPersistentNumber(name, value)$/;"	f	language:Vim
+SetRemoteServer	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:SetRemoteServer(...) " {{{$/;"	f	language:Vim
+SetUpForNewFiletype	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:SetUpForNewFiletype(filetype)$/;"	f	language:Vim
+SetupBuf	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:SetupBuf(full)$/;"	f	language:Vim
+ShowAvailableSnips	../bundle/SnipMate/plugin/snipMate.vim	/^fun! ShowAvailableSnips()$/;"	f	language:Vim
+ShowLocList	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:ShowLocList()$/;"	f	language:Vim
+ShowRemoteContext	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ShowRemoteContext() " {{{$/;"	f	language:Vim
+ShowRemoteError	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ShowRemoteError(msg, servName) " {{{$/;"	f	language:Vim
+SignErrors	../bundle/Syntastic/plugin/syntastic.vim	/^function s:SignErrors()$/;"	f	language:Vim
+Strcmp	../bundle/totd/plugin/totd.vim	/^fun! s:Strcmp(foo, bar)$/;"	f	language:Vim
+Strlen	../bundle/Align/autoload/Align.vim	/^fun! s:Strlen(x)$/;"	f	language:Vim
+SubstituteCase	keepcase.vim	/^function! s:SubstituteCase(repl_arg) range$/;"	f	language:Vim
+SuperTab	../bundle/supertab/plugin/supertab.vim	/^function! s:SuperTab(command)$/;"	f	language:Vim
+SuperTabAlternateCompletion	../bundle/supertab/plugin/supertab.vim	/^function! SuperTabAlternateCompletion(type)$/;"	f	language:Vim
+SuperTabHelp	../bundle/supertab/plugin/supertab.vim	/^    command SuperTabHelp :call <SID>SuperTabHelp()$/;"	c	language:Vim
+SuperTabHelp	../bundle/supertab/plugin/supertab.vim	/^function! s:SuperTabHelp()$/;"	f	language:Vim
+SuperTabSetCompletionType	../bundle/supertab/plugin/supertab.vim	/^function! SuperTabSetCompletionType(type)$/;"	f	language:Vim
+SuperTabSetDefaultCompletionType	../bundle/supertab/plugin/supertab.vim	/^function! SuperTabSetDefaultCompletionType(type)$/;"	f	language:Vim
+SwapOutterMultiPartDelimsForPlaceHolders	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:SwapOutterMultiPartDelimsForPlaceHolders(line)$/;"	f	language:Vim
+SwapOutterPlaceHoldersForMultiPartDelims	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:SwapOutterPlaceHoldersForMultiPartDelims(line)$/;"	f	language:Vim
+SwitchToAlternativeDelimiters	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:SwitchToAlternativeDelimiters(printMsgs)$/;"	f	language:Vim
+SyntasticDisable	../bundle/Syntastic/plugin/syntastic.vim	/^command! -nargs=? SyntasticDisable call s:Disable(<f-args>)$/;"	c	language:Vim
+SyntasticEnable	../bundle/Syntastic/plugin/syntastic.vim	/^command! -nargs=? SyntasticEnable call s:Enable(<f-args>)$/;"	c	language:Vim
+SyntasticMake	../bundle/Syntastic/plugin/syntastic.vim	/^function! SyntasticMake(options)$/;"	f	language:Vim
+SyntasticStatuslineFlag	../bundle/Syntastic/plugin/syntastic.vim	/^function! SyntasticStatuslineFlag()$/;"	f	language:Vim
+SyntaxCheckers_c_GetLocList	../bundle/Syntastic/syntax_checkers/c.vim	/^function! SyntaxCheckers_c_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_coffee_GetLocList	../bundle/Syntastic/syntax_checkers/coffee.vim	/^function! SyntaxCheckers_coffee_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_cpp_GetLocList	../bundle/Syntastic/syntax_checkers/cpp.vim	/^function! SyntaxCheckers_cpp_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_cucumber_GetLocList	../bundle/Syntastic/syntax_checkers/cucumber.vim	/^function! SyntaxCheckers_cucumber_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_eruby_GetLocList	../bundle/Syntastic/syntax_checkers/eruby.vim	/^function! SyntaxCheckers_eruby_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_haml_GetLocList	../bundle/Syntastic/syntax_checkers/haml.vim	/^function! SyntaxCheckers_haml_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_haskell_GetLocList	../bundle/Syntastic/syntax_checkers/haskell.vim	/^function! SyntaxCheckers_haskell_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_html_GetLocList	../bundle/Syntastic/syntax_checkers/html.vim	/^function! SyntaxCheckers_html_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_javascript_GetLocList	../bundle/Syntastic/syntax_checkers/javascript.vim	/^function! SyntaxCheckers_javascript_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_lua_GetLocList	../bundle/Syntastic/syntax_checkers/lua.vim	/^function! SyntaxCheckers_lua_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_perl_GetLocList	../bundle/Syntastic/syntax_checkers/perl.vim	/^function! SyntaxCheckers_perl_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_php_GetLocList	../bundle/Syntastic/syntax_checkers/php.vim	/^function! SyntaxCheckers_php_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_python_GetLocList	../bundle/Syntastic/syntax_checkers/python.vim	/^function! SyntaxCheckers_python_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_ruby_GetLocList	../bundle/Syntastic/syntax_checkers/ruby.vim	/^function! SyntaxCheckers_ruby_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_sass_GetLocList	../bundle/Syntastic/syntax_checkers/sass.vim	/^function! SyntaxCheckers_sass_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_sh_GetLocList	../bundle/Syntastic/syntax_checkers/sh.vim	/^function! SyntaxCheckers_sh_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_tex_GetLocList	../bundle/Syntastic/syntax_checkers/tex.vim	/^function! SyntaxCheckers_tex_GetLocList()$/;"	f	language:Vim
+SyntaxCheckers_xhtml_GetLocList	../bundle/Syntastic/syntax_checkers/xhtml.vim	/^function! SyntaxCheckers_xhtml_GetLocList()$/;"	f	language:Vim
+TagList_IsValid	../bundle/Taglist/plugin/taglist.vim	/^function! TagList_IsValid()$/;"	f	language:Vim
+TagList_Start	../bundle/Taglist/plugin/taglist.vim	/^function! TagList_Start()$/;"	f	language:Vim
+TagList_WrapUp	../bundle/Taglist/plugin/taglist.vim	/^function! TagList_WrapUp()$/;"	f	language:Vim
+TagList_title	../bundle/Taglist/plugin/taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v	language:Vim
+TipOfTheDay	../bundle/totd/plugin/totd.vim	/^augroup TipOfTheDay$/;"	a	language:Vim
+TipOfTheDay	../bundle/totd/plugin/totd.vim	/^command! TipOfTheDay call TipOfTheDay(s:thisFile, 'yes')$/;"	c	language:Vim
+TipOfTheDay	../bundle/totd/plugin/totd.vim	/^fun! TipOfTheDay(file, force)$/;"	f	language:Vim
+Tlist	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c	language:Vim
+TlistAddFiles	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c	language:Vim
+TlistAddFilesRecursive	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c	language:Vim
+TlistClose	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c	language:Vim
+TlistDebug	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c	language:Vim
+TlistHighlightTag	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c	language:Vim
+TlistLock	../bundle/Taglist/plugin/taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c	language:Vim
+TlistMessages	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c	language:Vim
+TlistOpen	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c	language:Vim
+TlistSessionLoad	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c	language:Vim
+TlistSessionSave	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c	language:Vim
+TlistShowPrototype	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c	language:Vim
+TlistShowTag	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c	language:Vim
+TlistSync	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c	language:Vim
+TlistToggle	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c	language:Vim
+TlistUndebug	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c	language:Vim
+TlistUnlock	../bundle/Taglist/plugin/taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c	language:Vim
+TlistUpdate	../bundle/Taglist/plugin/taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c	language:Vim
+Tlist_Add_Files	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f	language:Vim
+Tlist_Add_Files_Recursive	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f	language:Vim
+Tlist_Auto_Highlight_Tag	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v	language:Vim
+Tlist_Auto_Open	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v	language:Vim
+Tlist_Auto_Update	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v	language:Vim
+Tlist_Ballon_Expr	../bundle/Taglist/plugin/taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f	language:Vim
+Tlist_Buffer_Removed	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f	language:Vim
+Tlist_Change_Sort	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f	language:Vim
+Tlist_Close_On_Select	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v	language:Vim
+Tlist_Compact_Format	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v	language:Vim
+Tlist_Ctags_Cmd	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v	language:Vim
+Tlist_Ctags_Cmd	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v	language:Vim
+Tlist_Debug_Disable	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f	language:Vim
+Tlist_Debug_Enable	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f	language:Vim
+Tlist_Debug_Show	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f	language:Vim
+Tlist_Detect_Filetype	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f	language:Vim
+Tlist_Discard_FileInfo	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f	language:Vim
+Tlist_Discard_TagInfo	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f	language:Vim
+Tlist_Display_Prototype	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v	language:Vim
+Tlist_Display_Tag_Scope	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v	language:Vim
+Tlist_Enable_Fold_Column	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v	language:Vim
+Tlist_Exe_Cmd_No_Acmds	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f	language:Vim
+Tlist_Exit_OnlyWindow	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v	language:Vim
+Tlist_Extract_Tag_Scope	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f	language:Vim
+Tlist_Extract_Tagtype	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f	language:Vim
+Tlist_FileType_Init	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f	language:Vim
+Tlist_File_Fold_Auto_Close	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v	language:Vim
+Tlist_Find_Nearest_Tag_Idx	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f	language:Vim
+Tlist_GainFocus_On_ToggleOpen	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v	language:Vim
+Tlist_Get_Buffer_Filetype	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f	language:Vim
+Tlist_Get_File_Index	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f	language:Vim
+Tlist_Get_Tag_Linenum	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tag_Prototype	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tag_Prototype_By_Line	../bundle/Taglist/plugin/taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f	language:Vim
+Tlist_Get_Tag_SearchPat	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tag_Type_By_Tag	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f	language:Vim
+Tlist_Get_Tagname_By_Line	../bundle/Taglist/plugin/taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f	language:Vim
+Tlist_Highlight_Tag_On_BufEnter	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v	language:Vim
+Tlist_Inc_Winwidth	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v	language:Vim
+Tlist_Inc_Winwidth	../bundle/Taglist/plugin/taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v	language:Vim
+Tlist_Init_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Log_Msg	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f	language:Vim
+Tlist_Max_Submenu_Items	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v	language:Vim
+Tlist_Max_Tag_Length	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v	language:Vim
+Tlist_Menu_Add_Base_Menu	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f	language:Vim
+Tlist_Menu_File_Refresh	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f	language:Vim
+Tlist_Menu_Get_Tag_Type_Cmd	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f	language:Vim
+Tlist_Menu_Init	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f	language:Vim
+Tlist_Menu_Jump_To_Tag	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f	language:Vim
+Tlist_Menu_Refresh	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f	language:Vim
+Tlist_Menu_Remove_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f	language:Vim
+Tlist_Menu_Update_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f	language:Vim
+Tlist_Parse_Tagline	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f	language:Vim
+Tlist_Post_Close_Cleanup	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f	language:Vim
+Tlist_Process_Dir	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f	language:Vim
+Tlist_Process_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Process_File_Always	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v	language:Vim
+Tlist_Process_Filelist	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f	language:Vim
+Tlist_Refresh	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Refresh()$/;"	f	language:Vim
+Tlist_Refresh_Folds	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f	language:Vim
+Tlist_Remove_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f	language:Vim
+Tlist_Session_Load	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f	language:Vim
+Tlist_Session_Save	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f	language:Vim
+Tlist_Set_App	../bundle/Taglist/plugin/taglist.vim	/^function! Tlist_Set_App(name)$/;"	f	language:Vim
+Tlist_Show_Menu	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v	language:Vim
+Tlist_Show_One_File	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v	language:Vim
+Tlist_Skip_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Sort_Type	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v	language:Vim
+Tlist_Update_Current_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f	language:Vim
+Tlist_Update_File	../bundle/Taglist/plugin/taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Update_Remove_List	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f	language:Vim
+Tlist_Use_Horiz_Window	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v	language:Vim
+Tlist_Use_Right_Window	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v	language:Vim
+Tlist_Use_SingleClick	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v	language:Vim
+Tlist_User_Removed_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f	language:Vim
+Tlist_Vim_Session_Load	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f	language:Vim
+Tlist_Warning_Msg	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f	language:Vim
+Tlist_WinHeight	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v	language:Vim
+Tlist_WinWidth	../bundle/Taglist/plugin/taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v	language:Vim
+Tlist_Window_Check_Auto_Open	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f	language:Vim
+Tlist_Window_Check_Width	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f	language:Vim
+Tlist_Window_Close	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f	language:Vim
+Tlist_Window_Create	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f	language:Vim
+Tlist_Window_Display_Help	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f	language:Vim
+Tlist_Window_Exit_Only_Window	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f	language:Vim
+Tlist_Window_Get_File_Index_By_Linenum	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f	language:Vim
+Tlist_Window_Get_Tag_Index	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f	language:Vim
+Tlist_Window_Get_Tag_Type_By_Linenum	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f	language:Vim
+Tlist_Window_Goto_Window	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f	language:Vim
+Tlist_Window_Highlight_Line	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f	language:Vim
+Tlist_Window_Highlight_Tag	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f	language:Vim
+Tlist_Window_Init	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f	language:Vim
+Tlist_Window_Jump_To_Tag	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f	language:Vim
+Tlist_Window_Mark_File_Window	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f	language:Vim
+Tlist_Window_Move_To_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f	language:Vim
+Tlist_Window_Open	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f	language:Vim
+Tlist_Window_Open_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f	language:Vim
+Tlist_Window_Open_File_Fold	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f	language:Vim
+Tlist_Window_Refresh	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f	language:Vim
+Tlist_Window_Refresh_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f	language:Vim
+Tlist_Window_Remove_File_From_Display	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f	language:Vim
+Tlist_Window_Show_Info	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f	language:Vim
+Tlist_Window_Toggle	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f	language:Vim
+Tlist_Window_Toggle_Help_Text	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f	language:Vim
+Tlist_Window_Update_File	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f	language:Vim
+Tlist_Window_Update_Line_Offsets	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f	language:Vim
+Tlist_Window_Zoom	../bundle/Taglist/plugin/taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f	language:Vim
+ToggleBreakPoint	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:ToggleBreakPoint()$/;"	f	language:Vim
+TriggerSnippet	../bundle/SnipMate/plugin/snipMate.vim	/^fun! TriggerSnippet()$/;"	f	language:Vim
+UnEsc	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:UnEsc(str, escChar)$/;"	f	language:Vim
+UncommentLineNormal	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:UncommentLineNormal(line)$/;"	f	language:Vim
+UncommentLines	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:UncommentLines(onlyWholeLineComs) range$/;"	f	language:Vim
+UncommentLinesNormal	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:UncommentLinesNormal(topline, bottomline)$/;"	f	language:Vim
+UncommentLinesSexy	../bundle/NERD_comments/plugin/NERD_comments.vim	/^function s:UncommentLinesSexy(topline, bottomline)$/;"	f	language:Vim
+UpdateChangedSnip	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:UpdateChangedSnip(entering)$/;"	f	language:Vim
+UpdateErrors	../bundle/Syntastic/plugin/syntastic.vim	/^function! s:UpdateErrors()$/;"	f	language:Vim
+UpdatePlaceholderTabStops	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:UpdatePlaceholderTabStops()$/;"	f	language:Vim
+UpdateTabStops	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:UpdateTabStops()$/;"	f	language:Vim
+UpdateVars	../bundle/SnipMate/autoload/snipMate.vim	/^fun s:UpdateVars()$/;"	f	language:Vim
+WaitForDbgPrompt	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:WaitForDbgPrompt() " Throws remote exceptions. {{{$/;"	f	language:Vim
+Where	../bundle/BreakPts/plugin/breakpts.vim	/^command! Where :exec breakpts#GenContext() | echo g:BPCurContext$/;"	c	language:Vim
+Wholematch	../bundle/Matchit/plugin/matchit.vim	/^fun! s:Wholematch(string, pat, start)$/;"	f	language:Vim
+WillComplete	../bundle/supertab/plugin/supertab.vim	/^function! s:WillComplete()$/;"	f	language:Vim
+[%	../bundle/Matchit/plugin/matchit.vim	/^nnoremap <silent> [% :<C-U>call <SID>MultiMatch("bW", "n") <CR>$/;"	m	language:Vim
+[%	../bundle/Matchit/plugin/matchit.vim	/^onoremap <silent> [% v:<C-U>call <SID>MultiMatch("bW", "o") <CR>$/;"	m	language:Vim
+[%	../bundle/Matchit/plugin/matchit.vim	/^vmap [% <Esc>[%m'gv``$/;"	m	language:Vim
+]%	../bundle/Matchit/plugin/matchit.vim	/^nnoremap <silent> ]% :<C-U>call <SID>MultiMatch("W",  "n") <CR>$/;"	m	language:Vim
+]%	../bundle/Matchit/plugin/matchit.vim	/^onoremap <silent> ]% v:<C-U>call <SID>MultiMatch("W",  "o") <CR>$/;"	m	language:Vim
+]%	../bundle/Matchit/plugin/matchit.vim	/^vmap ]% <Esc>]%m'gv``$/;"	m	language:Vim
+_BreakIf	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:_BreakIf()$/;"	f	language:Vim
+_GenContext	../bundle/BreakPts/autoload/breakpts.vim	/^function! s:_GenContext()$/;"	f	language:Vim
+_makeArgumentList	../bundle/BreakPts/autoload/genutils.vim	/^function! s:_makeArgumentList()$/;"	f	language:Vim
+_makeArgumentString	../bundle/BreakPts/autoload/genutils.vim	/^function! s:_makeArgumentString()$/;"	f	language:Vim
+a%	../bundle/Matchit/plugin/matchit.vim	/^vmap a% <Esc>[%v]%$/;"	m	language:Vim
+are	../bundle/NERD_comments/plugin/NERD_comments.vim	/^mappings are consistent across all supported filetypes. $/;"	m	language:Vim
+b:browsefilter	../bundle/verilog_systemverilog/ftplugin/verilog.vim	/^  let b:browsefilter = "Verilog Source Files (*.v)\\t*.v\\n" .$/;"	v	language:Vim
+b:current_syntax	../bundle/verilog_systemverilog/syntax/verilog.vim	/^let b:current_syntax = "verilog"$/;"	v	language:Vim
+b:current_syntax	../bundle/verilog_systemverilog/syntax/verilog_systemverilog.vim	/^let b:current_syntax = "verilog_systemverilog"$/;"	v	language:Vim
+b:did_ftplugin	../bundle/verilog_systemverilog/ftplugin/verilog.vim	/^let b:did_ftplugin = 1$/;"	v	language:Vim
+b:did_indent	../bundle/verilog_systemverilog/indent/verilog_systemverilog.vim	/^let b:did_indent = 1$/;"	v	language:Vim
+b:match_ignorecase	../bundle/verilog_systemverilog/ftplugin/verilog.vim	/^  let b:match_ignorecase=0$/;"	v	language:Vim
+b:match_ignorecase	../bundle/verilog_systemverilog/syntax/verilog_systemverilog.vim	/^  let b:match_ignorecase=0$/;"	v	language:Vim
+b:match_words	../bundle/verilog_systemverilog/ftplugin/verilog.vim	/^  let b:match_words=$/;"	v	language:Vim
+b:match_words	../bundle/verilog_systemverilog/syntax/verilog_systemverilog.vim	/^  let b:match_words=$/;"	v	language:Vim
+b:undo_ftplugin	../bundle/verilog_systemverilog/ftplugin/verilog.vim	/^let b:undo_ftplugin = "setlocal fo< com< tw<"$/;"	v	language:Vim
+breakpts#BM_BRKPTS	../bundle/BreakPts/autoload/breakpts.vim	/^let breakpts#BM_BRKPTS = 'breakpts'$/;"	v	language:Vim
+breakpts#BM_FUNCTION	../bundle/BreakPts/autoload/breakpts.vim	/^let breakpts#BM_FUNCTION = 'function'$/;"	v	language:Vim
+breakpts#BM_FUNCTIONS	../bundle/BreakPts/autoload/breakpts.vim	/^let breakpts#BM_FUNCTIONS = 'functions'$/;"	v	language:Vim
+breakpts#BM_SCRIPT	../bundle/BreakPts/autoload/breakpts.vim	/^let breakpts#BM_SCRIPT = 'script'$/;"	v	language:Vim
+breakpts#BM_SCRIPTS	../bundle/BreakPts/autoload/breakpts.vim	/^let breakpts#BM_SCRIPTS = 'scripts'$/;"	v	language:Vim
+breakpts#Break	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#Break(offset)$/;"	f	language:Vim
+breakpts#BreakAddComplete	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BreakAddComplete(ArgLead, CmdLine, CursorPos)$/;"	f	language:Vim
+breakpts#BreakCheckHitCount	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BreakCheckHitCount(breakLine, skipCount, expireCount)$/;"	f	language:Vim
+breakpts#BreakDelComplete	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BreakDelComplete(ArgLead, CmdLine, CursorPos)$/;"	f	language:Vim
+breakpts#BreakIf	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BreakIf(cond, offset)$/;"	f	language:Vim
+breakpts#BreakIfCount	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BreakIfCount(skipCount, expireCount, cond, offset)$/;"	f	language:Vim
+breakpts#BrowserMain	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BrowserMain(...) " {{{$/;"	f	language:Vim
+breakpts#BrowserRefresh	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#BrowserRefresh(force) " {{{$/;"	f	language:Vim
+breakpts#ClearAllBrkPts	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#ClearAllBrkPts()$/;"	f	language:Vim
+breakpts#ClearBPCounters	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#ClearBPCounters()$/;"	f	language:Vim
+breakpts#DeBreak	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#DeBreak(offset)$/;"	f	language:Vim
+breakpts#GenContext	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#GenContext()$/;"	f	language:Vim
+breakpts#RuntimeComplete	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#RuntimeComplete(ArgLead, CmdLine, CursorPos)$/;"	f	language:Vim
+breakpts#SaveBrkPts	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#SaveBrkPts(varName)$/;"	f	language:Vim
+breakpts#SetupBuf	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#SetupBuf() " {{{$/;"	f	language:Vim
+breakpts#WinManagerRefresh	../bundle/BreakPts/autoload/breakpts.vim	/^function! breakpts#WinManagerRefresh()$/;"	f	language:Vim
+commentEnablers	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    augroup commentEnablers$/;"	a	language:Vim
+comment_ind	../bundle/verilog_systemverilog/indent/verilog_systemverilog.vim	/^function s:comment_ind(lnum)$/;"	f	language:Vim
+cr	../bundle/supertab/plugin/supertab.vim	/^      let cr = (map =~? '\\(^\\|[^)]\\)<cr>')$/;"	v	language:Vim
+ctrl_n	../bundle/supertab/plugin/supertab.vim	/^    let ctrl_n = substitute(ctrl_n, '<', '<lt>', 'g')$/;"	v	language:Vim
+ctrl_n	../bundle/supertab/plugin/supertab.vim	/^  let ctrl_n = maparg('<c-n>', 'i')$/;"	v	language:Vim
+ctrl_p	../bundle/supertab/plugin/supertab.vim	/^    let ctrl_p = substitute(ctrl_p, '<', '<lt>', 'g')$/;"	v	language:Vim
+ctrl_p	../bundle/supertab/plugin/supertab.vim	/^  let ctrl_p = maparg('<c-p>', 'i')$/;"	v	language:Vim
+did_drchip_decho_syntax	../bundle/Decho/syntax/Decho.vim	/^  let did_drchip_decho_syntax= 1$/;"	v	language:Vim
+did_verilog_syn_inits	../bundle/verilog_systemverilog/syntax/verilog.vim	/^      let did_verilog_syn_inits = 1$/;"	v	language:Vim
+did_verilog_syn_inits	../bundle/verilog_systemverilog/syntax/verilog_systemverilog.vim	/^      let did_verilog_syn_inits = 1$/;"	v	language:Vim
+do.	../bundle/NERD_comments/plugin/NERD_comments.vim	/^mappings do.$/;"	m	language:Vim
+e	../bundle/NERD_comments/plugin/NERD_comments.vim	/^come to commenting out exactly what was selected. If you prefer for whole$/;"	c	language:Vim
+ent	../bundle/NERD_comments/plugin/NERD_comments.vim	/^comment the following c code (using | to represent the visual boundary): >$/;"	c	language:Vim
+ented	../bundle/NERD_comments/plugin/NERD_comments.vim	/^commented again.$/;"	c	language:Vim
+ented	../bundle/NERD_comments/plugin/NERD_comments.vim	/^commented then it is uncommented and vice versa. Each line is examined and$/;"	c	language:Vim
+ented	../bundle/NERD_comments/plugin/NERD_comments.vim	/^commented\/uncommented individually. $/;"	c	language:Vim
+enting	../bundle/NERD_comments/plugin/NERD_comments.vim	/^commenting mappings. Their values must be set to strings. As an example: if$/;"	c	language:Vim
+ents	../bundle/NERD_comments/plugin/NERD_comments.vim	/^                                      comments.$/;"	c	language:Vim
+ents	../bundle/NERD_comments/plugin/NERD_comments.vim	/^comments delimiters of the alternative style. >$/;"	c	language:Vim
+g%	../bundle/Matchit/plugin/matchit.vim	/^nnoremap <silent> g% :<C-U>call <SID>Match_wrapper('',0,'n') <CR>$/;"	m	language:Vim
+g%	../bundle/Matchit/plugin/matchit.vim	/^onoremap <silent> g% v:<C-U>call <SID>Match_wrapper('',0,'o') <CR>$/;"	m	language:Vim
+g%	../bundle/Matchit/plugin/matchit.vim	/^vnoremap <silent> g% :<C-U>call <SID>Match_wrapper('',0,'v') <CR>m'gv``$/;"	m	language:Vim
+g:Align_xstrlen	../bundle/Align/autoload/Align.vim	/^  let g:Align_xstrlen= 0$/;"	v	language:Vim
+g:Align_xstrlen	../bundle/Align/autoload/Align.vim	/^  let g:Align_xstrlen= 1$/;"	v	language:Vim
+g:BPCurContext	../bundle/BreakPts/autoload/breakpts.vim	/^let g:BPCurContext = ''$/;"	v	language:Vim
+g:BreakPts_title	../bundle/BreakPts/autoload/breakpts.vim	/^let g:BreakPts_title = "[BreakPts]"$/;"	v	language:Vim
+g:DrChipTopLvlMenu	../bundle/Align/plugin/AlignMapsPlugin.vim	/^  let g:DrChipTopLvlMenu= "DrChip."$/;"	v	language:Vim
+g:ST_WIN_CMD	../bundle/BreakPts/autoload/genutils.vim	/^let g:ST_WIN_CMD = 0 | let g:ST_WIN_SH = 1 | let g:ST_UNIX = 2$/;"	v	language:Vim
+g:SuperTabCompletionContexts	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCompletionContexts = ['s:ContextText']$/;"	v	language:Vim
+g:SuperTabContextDefaultCompletionType	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabContextDefaultCompletionType = "<c-p>"$/;"	v	language:Vim
+g:SuperTabCrMapping	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabCrMapping = 1$/;"	v	language:Vim
+g:SuperTabDefaultCompletionType	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabDefaultCompletionType = "<c-p>"$/;"	v	language:Vim
+g:SuperTabLongestEnhanced	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabLongestEnhanced = 0$/;"	v	language:Vim
+g:SuperTabLongestHighlight	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabLongestHighlight = 0$/;"	v	language:Vim
+g:SuperTabMappingBackward	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingBackward = '<s-tab>'$/;"	v	language:Vim
+g:SuperTabMappingForward	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingForward = '<tab>'$/;"	v	language:Vim
+g:SuperTabMappingTabLiteral	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabMappingTabLiteral = '<c-tab>'$/;"	v	language:Vim
+g:SuperTabNoCompleteAfter	../bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteAfter = ['\\s']$/;"	v	language:Vim
+g:SuperTabNoCompleteAfter	../bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteAfter = []$/;"	v	language:Vim
+g:SuperTabNoCompleteBefore	../bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteBefore = ['\\k']$/;"	v	language:Vim
+g:SuperTabNoCompleteBefore	../bundle/supertab/plugin/supertab.vim	/^      let g:SuperTabNoCompleteBefore = []$/;"	v	language:Vim
+g:SuperTabRetainCompletionDuration	../bundle/supertab/plugin/supertab.vim	/^    let g:SuperTabRetainCompletionDuration = 'insert'$/;"	v	language:Vim
+g:brkptsCreateFolds	../bundle/BreakPts/plugin/breakpts.vim	/^  let g:brkptsCreateFolds = 1$/;"	v	language:Vim
+g:brkptsDefStartMode	../bundle/BreakPts/plugin/breakpts.vim	/^  let g:brkptsDefStartMode = 'functions'$/;"	v	language:Vim
+g:brkptsFoldContext	../bundle/BreakPts/plugin/breakpts.vim	/^  let g:brkptsFoldContext = 3$/;"	v	language:Vim
+g:brkptsModFuncHeader	../bundle/BreakPts/plugin/breakpts.vim	/^  let g:brkptsModFuncHeader = 1$/;"	v	language:Vim
+g:decho_bufenter	../bundle/Decho/plugin/Decho.vim	/^ let g:decho_bufenter= 0$/;"	v	language:Vim
+g:decho_bufname	../bundle/Decho/plugin/Decho.vim	/^ let g:decho_bufname= "DBG"$/;"	v	language:Vim
+g:decho_winheight	../bundle/Decho/plugin/Decho.vim	/^ let g:decho_winheight= 5$/;"	v	language:Vim
+g:dechomode	../bundle/Decho/plugin/Decho.vim	/^ let g:dechomode= s:DECHOWIN$/;"	v	language:Vim
+g:dechovarname	../bundle/Decho/plugin/Decho.vim	/^ let g:dechovarname = "g:dechovar"$/;"	v	language:Vim
+g:did_ft	../bundle/SnipMate/plugin/snipMate.vim	/^let g:did_ft = {}$/;"	v	language:Vim
+g:loaded_Align	../bundle/Align/autoload/Align.vim	/^let g:loaded_Align = "v35"$/;"	v	language:Vim
+g:loaded_AlignMaps	../bundle/Align/autoload/AlignMaps.vim	/^let g:loaded_AlignMaps= "v41"$/;"	v	language:Vim
+g:loaded_AlignMapsPlugin	../bundle/Align/plugin/AlignMapsPlugin.vim	/^let g:loaded_AlignMapsPlugin = "v41"$/;"	v	language:Vim
+g:loaded_AlignPlugin	../bundle/Align/plugin/AlignPlugin.vim	/^let g:loaded_AlignPlugin = "v35"$/;"	v	language:Vim
+g:loaded_Decho	../bundle/Decho/plugin/Decho.vim	/^let g:loaded_Decho = "v20"$/;"	v	language:Vim
+g:loaded_cecutil	cecutil.vim	/^let g:loaded_cecutil = "v18b"$/;"	v	language:Vim
+g:loaded_syntastic_plugin	../bundle/Syntastic/plugin/syntastic.vim	/^let g:loaded_syntastic_plugin = 1$/;"	v	language:Vim
+g:makeArgumentList	../bundle/BreakPts/autoload/genutils.vim	/^let g:makeArgumentList = 'exec genutils#MakeArgumentList()'$/;"	v	language:Vim
+g:makeArgumentString	../bundle/BreakPts/autoload/genutils.vim	/^let g:makeArgumentString = 'exec genutils#MakeArgumentString()'$/;"	v	language:Vim
+g:syntastic_auto_loc_list	../bundle/Syntastic/plugin/syntastic.vim	/^    let g:syntastic_auto_loc_list = 0$/;"	v	language:Vim
+g:syntastic_disabled_filetypes	../bundle/Syntastic/plugin/syntastic.vim	/^    let g:syntastic_disabled_filetypes = []$/;"	v	language:Vim
+g:syntastic_enable_signs	../bundle/Syntastic/plugin/syntastic.vim	/^    let g:syntastic_enable_signs = 0$/;"	v	language:Vim
+g:syntastic_quiet_warnings	../bundle/Syntastic/plugin/syntastic.vim	/^    let g:syntastic_quiet_warnings = 0$/;"	v	language:Vim
+genutils#AddNotifyWindowClose	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#AddNotifyWindowClose(windowTitle, functionName)$/;"	f	language:Vim
+genutils#AddToFCShellPre	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#AddToFCShellPre(funcName)$/;"	f	language:Vim
+genutils#AlignWordWithWordInPreviousLine	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#AlignWordWithWordInPreviousLine()$/;"	f	language:Vim
+genutils#ArrayVarExists	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ArrayVarExists(varName, index)$/;"	f	language:Vim
+genutils#BinInsertSort	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#BinInsertSort(cmp, direction) range$/;"	f	language:Vim
+genutils#BinInsertSort2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#BinInsertSort2(start, end, cmp, direction, accessor, mover, context)$/;"	f	language:Vim
+genutils#BinSearchForInsert	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#BinSearchForInsert(start, end, line, cmp, direction)$/;"	f	language:Vim
+genutils#BinSearchForInsert2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#BinSearchForInsert2(start, end, line, cmp, direction,$/;"	f	language:Vim
+genutils#BinSearchList	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#BinSearchList(list, start, end, item, cmp)$/;"	f	language:Vim
+genutils#CenterWordInSpace	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CenterWordInSpace()$/;"	f	language:Vim
+genutils#CheckWindowClose	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CheckWindowClose()$/;"	f	language:Vim
+genutils#CleanDiffOptions	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CleanDiffOptions()$/;"	f	language:Vim
+genutils#CleanupFileName	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CleanupFileName(fileName)$/;"	f	language:Vim
+genutils#CleanupFileName2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CleanupFileName2(fileName, win32ProtectedChars)$/;"	f	language:Vim
+genutils#ClearAllSigns	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ClearAllSigns()$/;"	f	language:Vim
+genutils#CloseWinNoEa	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CloseWinNoEa(winnr, force)$/;"	f	language:Vim
+genutils#CloseWindow	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CloseWindow(win, force)$/;"	f	language:Vim
+genutils#CmpByLength	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CmpByLength(line1, line2, ...)$/;"	f	language:Vim
+genutils#CmpByLineLengthNname	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CmpByLineLengthNname(line1, line2, ...)$/;"	f	language:Vim
+genutils#CmpByNumber	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CmpByNumber(line1, line2, ...)$/;"	f	language:Vim
+genutils#CmpByString	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CmpByString(line1, line2, ...)$/;"	f	language:Vim
+genutils#CmpByStringIgnoreCase	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CmpByStringIgnoreCase(line1, line2, ...)$/;"	f	language:Vim
+genutils#CmpJavaImports	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CmpJavaImports(line1, line2, ...)$/;"	f	language:Vim
+genutils#CommonPath	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CommonPath(path1, path2, ...)$/;"	f	language:Vim
+genutils#CommonString	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CommonString(str1, str2)$/;"	f	language:Vim
+genutils#CrUnProtectedCharsPattern	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CrUnProtectedCharsPattern(chars, ...)$/;"	f	language:Vim
+genutils#CreateArgString	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CreateArgString(argList, sep, ...)$/;"	f	language:Vim
+genutils#CurLineHasSign	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#CurLineHasSign()$/;"	f	language:Vim
+genutils#DeEscape	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#DeEscape(str)$/;"	f	language:Vim
+genutils#DebugShowArgs	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#DebugShowArgs(...)$/;"	f	language:Vim
+genutils#DefFCShellInstall	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#DefFCShellInstall()$/;"	f	language:Vim
+genutils#DefFCShellUninstall	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#DefFCShellUninstall()$/;"	f	language:Vim
+genutils#DefFileChangedShell	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#DefFileChangedShell()$/;"	f	language:Vim
+genutils#EatChar	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#EatChar(pat)$/;"	f	language:Vim
+genutils#Escape	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#Escape(str, chars)$/;"	f	language:Vim
+genutils#EscapeCommand	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#EscapeCommand(cmd, args, pipe)$/;"	f	language:Vim
+genutils#ExpandStr	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ExpandStr(str)$/;"	f	language:Vim
+genutils#ExtractFuncListing	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ExtractFuncListing(funcName, hLines, tLines)$/;"	f	language:Vim
+genutils#FindBufferForName	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#FindBufferForName(fileName)$/;"	f	language:Vim
+genutils#FindWindowForBuffer	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#FindWindowForBuffer(bufferName, checkUnlisted)$/;"	f	language:Vim
+genutils#GetBufNameForAu	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetBufNameForAu(bufName)$/;"	f	language:Vim
+genutils#GetColPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetColPosition(id)$/;"	f	language:Vim
+genutils#GetLastWinnrInStack	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetLastWinnrInStack(dir)$/;"	f	language:Vim
+genutils#GetLinePosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetLinePosition(id)$/;"	f	language:Vim
+genutils#GetNextWinnrInStack	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetNextWinnrInStack(dir)$/;"	f	language:Vim
+genutils#GetPersistentVar	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetPersistentVar(pluginName, persistentVar, default)$/;"	f	language:Vim
+genutils#GetPreviewWinnr	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetPreviewWinnr()$/;"	f	language:Vim
+genutils#GetSelectedIndex	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetSelectedIndex()$/;"	f	language:Vim
+genutils#GetShellEnvType	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetShellEnvType()$/;"	f	language:Vim
+genutils#GetSpacer	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetSpacer(width)$/;"	f	language:Vim
+genutils#GetVimCmdOutput	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#GetVimCmdOutput(cmd)$/;"	f	language:Vim
+genutils#IsOnlyHorizontalWindow	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#IsOnlyHorizontalWindow()$/;"	f	language:Vim
+genutils#IsOnlyVerticalWindow	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#IsOnlyVerticalWindow()$/;"	f	language:Vim
+genutils#IsPositionSet	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#IsPositionSet(id)$/;"	f	language:Vim
+genutils#MakeArgumentList	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MakeArgumentList(...)$/;"	f	language:Vim
+genutils#MakeArgumentString	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MakeArgumentString(...)$/;"	f	language:Vim
+genutils#MapAppendCascaded	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MapAppendCascaded(lhs, rhs, mapMode)$/;"	f	language:Vim
+genutils#MarkActiveWindow	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MarkActiveWindow()$/;"	f	language:Vim
+genutils#MoveCurLineToWinLine	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MoveCurLineToWinLine(n)$/;"	f	language:Vim
+genutils#MoveCursorToLastInWinStack	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MoveCursorToLastInWinStack(dir)$/;"	f	language:Vim
+genutils#MoveCursorToNextInWinStack	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MoveCursorToNextInWinStack(dir)$/;"	f	language:Vim
+genutils#MoveCursorToWindow	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#MoveCursorToWindow(winno)$/;"	f	language:Vim
+genutils#NumberOfWindows	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#NumberOfWindows()$/;"	f	language:Vim
+genutils#OnMS	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#OnMS()$/;"	f	language:Vim
+genutils#OpenWinNoEa	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#OpenWinNoEa(winOpenCmd)$/;"	f	language:Vim
+genutils#OptClearBuffer	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#OptClearBuffer()$/;"	f	language:Vim
+genutils#PathIsAbsolute	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#PathIsAbsolute(path)$/;"	f	language:Vim
+genutils#PathIsFileNameOnly	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#PathIsFileNameOnly(path)$/;"	f	language:Vim
+genutils#PromptForElement	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#PromptForElement(array, default, msg, skip, useDialog,$/;"	f	language:Vim
+genutils#PutPersistentVar	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#PutPersistentVar(pluginName, persistentVar, value)$/;"	f	language:Vim
+genutils#QSort	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#QSort(cmp, direction) range$/;"	f	language:Vim
+genutils#QSort2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#QSort2(start, end, cmp, direction, accessor, swapper, context)$/;"	f	language:Vim
+genutils#QuoteStr	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#QuoteStr(str)$/;"	f	language:Vim
+genutils#RelPathFromDir	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RelPathFromDir(srcDir, tgtFile)$/;"	f	language:Vim
+genutils#RelPathFromFile	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RelPathFromFile(srcFile, tgtFile)$/;"	f	language:Vim
+genutils#RemoveFromFCShellPre	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RemoveFromFCShellPre(funcName)$/;"	f	language:Vim
+genutils#RemoveNotifyWindowClose	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RemoveNotifyWindowClose(windowTitle)$/;"	f	language:Vim
+genutils#ResetHardPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ResetHardPosition(id)$/;"	f	language:Vim
+genutils#ResetHardPositionWithContext	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ResetHardPositionWithContext(id)$/;"	f	language:Vim
+genutils#ResetSoftPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ResetSoftPosition(id)$/;"	f	language:Vim
+genutils#ResetWindowSettings	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ResetWindowSettings()$/;"	f	language:Vim
+genutils#ResetWindowSettings2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ResetWindowSettings2(id)$/;"	f	language:Vim
+genutils#RestoreActiveWindow	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreActiveWindow()$/;"	f	language:Vim
+genutils#RestoreHardPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreHardPosition(id)$/;"	f	language:Vim
+genutils#RestoreHardPositionWithContext	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreHardPositionWithContext(id)$/;"	f	language:Vim
+genutils#RestoreSoftPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreSoftPosition(id)$/;"	f	language:Vim
+genutils#RestoreVisualSelection	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreVisualSelection(id)$/;"	f	language:Vim
+genutils#RestoreWindowSettings	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreWindowSettings()$/;"	f	language:Vim
+genutils#RestoreWindowSettings2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#RestoreWindowSettings2(id)$/;"	f	language:Vim
+genutils#Roman2Decimal	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#Roman2Decimal(str)$/;"	f	language:Vim
+genutils#SaveHardPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SaveHardPosition(id)$/;"	f	language:Vim
+genutils#SaveHardPositionWithContext	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SaveHardPositionWithContext(id)$/;"	f	language:Vim
+genutils#SaveSoftPosition	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SaveSoftPosition(id)$/;"	f	language:Vim
+genutils#SaveVisualSelection	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SaveVisualSelection(id)$/;"	f	language:Vim
+genutils#SaveWindowSettings	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SaveWindowSettings()$/;"	f	language:Vim
+genutils#SaveWindowSettings2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SaveWindowSettings2(id, overwrite)$/;"	f	language:Vim
+genutils#SetupScratchBuffer	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SetupScratchBuffer()$/;"	f	language:Vim
+genutils#ShiftWordInSpace	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ShiftWordInSpace(dir)$/;"	f	language:Vim
+genutils#ShowLinesWithSyntax	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#ShowLinesWithSyntax() range$/;"	f	language:Vim
+genutils#SilentDelete	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SilentDelete(arg1, ...)$/;"	f	language:Vim
+genutils#SilentSubstitute	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#SilentSubstitute(pat, cmd)$/;"	f	language:Vim
+genutils#UnEscape	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#UnEscape(str, chars)$/;"	f	language:Vim
+genutils#UserDirComplete2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#UserDirComplete2(ArgLead, CmdLine, CursorPos, ...)$/;"	f	language:Vim
+genutils#UserFileComplete	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#UserFileComplete(ArgLead, CmdLine, CursorPos, smartSlash,$/;"	f	language:Vim
+genutils#UserFileComplete2	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#UserFileComplete2(ArgLead, CmdLine, CursorPos, ...)$/;"	f	language:Vim
+genutils#UserFileExpand	../bundle/BreakPts/autoload/genutils.vim	/^function! genutils#UserFileExpand(fileArgs)$/;"	f	language:Vim
+knowledge	../bundle/NERD_comments/plugin/NERD_comments.vim	/^no knowledge of these. The average user need only know about a few key$/;"	m	language:Vim
+loaded_breakpts	../bundle/BreakPts/plugin/breakpts.vim	/^let loaded_breakpts = 400$/;"	v	language:Vim
+loaded_c_syntax_checker	../bundle/Syntastic/syntax_checkers/c.vim	/^let loaded_c_syntax_checker = 1$/;"	v	language:Vim
+loaded_coffee_syntax_checker	../bundle/Syntastic/syntax_checkers/coffee.vim	/^let loaded_coffee_syntax_checker = 1$/;"	v	language:Vim
+loaded_cpp_syntax_checker	../bundle/Syntastic/syntax_checkers/cpp.vim	/^let loaded_cpp_syntax_checker = 1$/;"	v	language:Vim
+loaded_cucumber_syntax_checker	../bundle/Syntastic/syntax_checkers/cucumber.vim	/^let loaded_cucumber_syntax_checker = 1$/;"	v	language:Vim
+loaded_eruby_syntax_checker	../bundle/Syntastic/syntax_checkers/eruby.vim	/^let loaded_eruby_syntax_checker = 1$/;"	v	language:Vim
+loaded_genutils	../bundle/BreakPts/plugin/genutils.vim	/^let loaded_genutils = 205$/;"	v	language:Vim
+loaded_haml_syntax_checker	../bundle/Syntastic/syntax_checkers/haml.vim	/^let loaded_haml_syntax_checker = 1$/;"	v	language:Vim
+loaded_haskell_syntax_checker	../bundle/Syntastic/syntax_checkers/haskell.vim	/^let loaded_haskell_syntax_checker = 1$/;"	v	language:Vim
+loaded_html_syntax_checker	../bundle/Syntastic/syntax_checkers/html.vim	/^let loaded_html_syntax_checker = 1$/;"	v	language:Vim
+loaded_javascript_syntax_checker	../bundle/Syntastic/syntax_checkers/javascript.vim	/^let loaded_javascript_syntax_checker = 1$/;"	v	language:Vim
+loaded_lua_syntax_checker	../bundle/Syntastic/syntax_checkers/lua.vim	/^let loaded_lua_syntax_checker = 1$/;"	v	language:Vim
+loaded_matchit	../bundle/Matchit/plugin/matchit.vim	/^let loaded_matchit = 1$/;"	v	language:Vim
+loaded_nerd_comments	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let loaded_nerd_comments=1$/;"	v	language:Vim
+loaded_nerd_comments	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let loaded_nerd_comments = 1$/;"	v	language:Vim
+loaded_perl_syntax_checker	../bundle/Syntastic/syntax_checkers/perl.vim	/^let loaded_perl_syntax_checker = 1$/;"	v	language:Vim
+loaded_php_syntax_checker	../bundle/Syntastic/syntax_checkers/php.vim	/^let loaded_php_syntax_checker = 1$/;"	v	language:Vim
+loaded_python_syntax_checker	../bundle/Syntastic/syntax_checkers/python.vim	/^let loaded_python_syntax_checker = 1$/;"	v	language:Vim
+loaded_ruby_syntax_checker	../bundle/Syntastic/syntax_checkers/ruby.vim	/^let loaded_ruby_syntax_checker = 1$/;"	v	language:Vim
+loaded_sass_syntax_checker	../bundle/Syntastic/syntax_checkers/sass.vim	/^let loaded_sass_syntax_checker = 1$/;"	v	language:Vim
+loaded_search_complete	SearchComplete.vim	/^let loaded_search_complete = 1$/;"	v	language:Vim
+loaded_sh_syntax_checker	../bundle/Syntastic/syntax_checkers/sh.vim	/^let loaded_sh_syntax_checker = 1$/;"	v	language:Vim
+loaded_snips	../bundle/SnipMate/plugin/snipMate.vim	/^let loaded_snips = 1$/;"	v	language:Vim
+loaded_taglist	../bundle/Taglist/plugin/taglist.vim	/^            let loaded_taglist = 'no'$/;"	v	language:Vim
+loaded_taglist	../bundle/Taglist/plugin/taglist.vim	/^        let loaded_taglist = 'no'$/;"	v	language:Vim
+loaded_taglist	../bundle/Taglist/plugin/taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v	language:Vim
+loaded_taglist	../bundle/Taglist/plugin/taglist.vim	/^let loaded_taglist = 'available'$/;"	v	language:Vim
+loaded_tex_syntax_checker	../bundle/Syntastic/syntax_checkers/tex.vim	/^let loaded_tex_syntax_checker = 1$/;"	v	language:Vim
+loaded_totd	../bundle/totd/plugin/totd.vim	/^let loaded_totd = 1$/;"	v	language:Vim
+loaded_xhtml_syntax_checker	../bundle/Syntastic/syntax_checkers/xhtml.vim	/^let loaded_xhtml_syntax_checker = 1$/;"	v	language:Vim
+map	../bundle/supertab/plugin/supertab.vim	/^      let map = maparg('<cr>', 'i')$/;"	v	language:Vim
+map	../bundle/supertab/plugin/supertab.vim	/^      let map = s:ExpandMap(map)$/;"	v	language:Vim
+nerd_autocmds_loaded	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let nerd_autocmds_loaded=1$/;"	v	language:Vim
+prevnonblanknoncomment	../bundle/verilog_systemverilog/indent/verilog_systemverilog.vim	/^function s:prevnonblanknoncomment(lnum)$/;"	f	language:Vim
+removecommment	../bundle/verilog_systemverilog/indent/verilog_systemverilog.vim	/^function s:removecommment(line,comment_ind)$/;"	f	language:Vim
+s:BRKPT_NR	../bundle/BreakPts/autoload/breakpts.vim	/^let s:BRKPT_NR = '\\%(^\\|['."\\n".']\\+\\)\\s*\\zs\\d\\+\\ze\\s\\+\\%(func\\|file\\)' .$/;"	v	language:Vim
+s:BreakListing_title	../bundle/BreakPts/autoload/breakpts.vim	/^let s:BreakListing_title = "[BreakPts Listing]"$/;"	v	language:Vim
+s:C	../bundle/BreakPts/autoload/genutils.vim	/^let s:C = 100$/;"	v	language:Vim
+s:D	../bundle/BreakPts/autoload/genutils.vim	/^let s:D = 500$/;"	v	language:Vim
+s:DECHOMSG	../bundle/Decho/plugin/Decho.vim	/^ let s:DECHOMSG = 2$/;"	v	language:Vim
+s:DECHOREM	../bundle/Decho/plugin/Decho.vim	/^ let s:DECHOREM = 4$/;"	v	language:Vim
+s:DECHOTAB	../bundle/Decho/plugin/Decho.vim	/^ let s:DECHOTAB = 5$/;"	v	language:Vim
+s:DECHOVAR	../bundle/Decho/plugin/Decho.vim	/^ let s:DECHOVAR = 3$/;"	v	language:Vim
+s:DECHOWIN	../bundle/Decho/plugin/Decho.vim	/^ let s:DECHOWIN = 1$/;"	v	language:Vim
+s:FUNC_NAME_PAT	../bundle/BreakPts/autoload/breakpts.vim	/^let s:FUNC_NAME_PAT = '\\%(<SNR>\\d\\+_\\)\\?\\k\\+' | lockvar s:FUNC_NAME_PAT$/;"	v	language:Vim
+s:I	../bundle/BreakPts/autoload/genutils.vim	/^let s:I = 1$/;"	v	language:Vim
+s:L	../bundle/BreakPts/autoload/genutils.vim	/^let s:L = 50$/;"	v	language:Vim
+s:M	../bundle/BreakPts/autoload/genutils.vim	/^let s:M = 1000$/;"	v	language:Vim
+s:NERD_comments_version	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let s:NERD_comments_version = 1.69.2$/;"	v	language:Vim
+s:Tlist_Skip_Refresh	../bundle/Taglist/plugin/taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v	language:Vim
+s:UNPROTECTED_CHAR_PRFX	../bundle/BreakPts/autoload/genutils.vim	/^let s:UNPROTECTED_CHAR_PRFX = '\\%(\\%([^\\\\]\\|^\\)\\\\\\%(\\\\\\\\\\)*\\)\\@<!' " Doesn't eat slashes.$/;"	v	language:Vim
+s:V	../bundle/BreakPts/autoload/genutils.vim	/^let s:V = 5$/;"	v	language:Vim
+s:X	../bundle/BreakPts/autoload/genutils.vim	/^let s:X = 10$/;"	v	language:Vim
+s:auloadedSids	../bundle/BreakPts/autoload/breakpts.vim	/^let s:auloadedSids = {} " A cache keyed by their autoload prefix (without #).$/;"	v	language:Vim
+s:bpCounters	../bundle/BreakPts/autoload/breakpts.vim	/^let s:bpCounters = {}$/;"	v	language:Vim
+s:breakIf	../bundle/BreakPts/autoload/breakpts.vim	/^let s:breakIf = ''$/;"	v	language:Vim
+s:cmd_breakpts	../bundle/BreakPts/autoload/breakpts.vim	/^let s:cmd_breakpts = 'breaklist'$/;"	v	language:Vim
+s:cmd_functions	../bundle/BreakPts/autoload/breakpts.vim	/^let s:cmd_functions = 'function'$/;"	v	language:Vim
+s:cmd_scripts	../bundle/BreakPts/autoload/breakpts.vim	/^let s:cmd_scripts = 'script'$/;"	v	language:Vim
+s:cpo_save	../bundle/Taglist/plugin/taglist.vim	/^let s:cpo_save = &cpo$/;"	v	language:Vim
+s:cpo_save	../bundle/verilog_systemverilog/ftplugin/verilog.vim	/^let s:cpo_save = &cpo$/;"	v	language:Vim
+s:curLineInCntxt	../bundle/BreakPts/autoload/breakpts.vim	/^let s:curLineInCntxt = '' " Current line for context.$/;"	v	language:Vim
+s:decho_depth	../bundle/Decho/plugin/Decho.vim	/^ let s:decho_depth  = 0$/;"	v	language:Vim
+s:defFCShellInstalled	../bundle/BreakPts/autoload/genutils.vim	/^let s:defFCShellInstalled = 0$/;"	v	language:Vim
+s:did_snip_helper	../bundle/SnipMate/ftplugin/html_snip_helper.vim	/^let s:did_snip_helper = 1$/;"	v	language:Vim
+s:did_snips_mappings	../bundle/SnipMate/after/plugin/snipMate.vim	/^let s:did_snips_mappings = 1$/;"	v	language:Vim
+s:emapleader	../bundle/Align/plugin/AlignMapsPlugin.vim	/^  let s:emapleader= escape(s:mapleader,'\\ ')$/;"	v	language:Vim
+s:fcShellPreFuncs	../bundle/BreakPts/autoload/genutils.vim	/^  let s:fcShellPreFuncs = {}$/;"	v	language:Vim
+s:fg_hlname	../bundle/Decho/syntax/Decho.vim	/^  let s:fg_hlname= synIDattr(synIDtrans(s:id_hlname),"fg")$/;"	v	language:Vim
+s:first_sign_id	../bundle/Syntastic/plugin/syntastic.vim	/^let s:first_sign_id = 5000$/;"	v	language:Vim
+s:firstmenu	../bundle/Align/plugin/AlignMapsPlugin.vim	/^ let s:firstmenu= 1$/;"	v	language:Vim
+s:funcBufNum	../bundle/BreakPts/autoload/breakpts.vim	/^let s:funcBufNum = -1$/;"	v	language:Vim
+s:genContext	../bundle/BreakPts/autoload/breakpts.vim	/^let s:genContext = ''$/;"	v	language:Vim
+s:header	../bundle/BreakPts/autoload/breakpts.vim	/^let s:header{breakpts#BM_BRKPTS} = 'Breakpoints:'$/;"	v	language:Vim
+s:header	../bundle/BreakPts/autoload/breakpts.vim	/^let s:header{breakpts#BM_FUNCTIONS} = 'Functions:'$/;"	v	language:Vim
+s:header	../bundle/BreakPts/autoload/breakpts.vim	/^let s:header{breakpts#BM_SCRIPTS} = 'Scripts:'$/;"	v	language:Vim
+s:id_hlname	../bundle/Decho/syntax/Decho.vim	/^  let s:id_hlname= hlID("Warning")$/;"	v	language:Vim
+s:keep_case_m1	keepcase.vim	/^let s:keep_case_m1='^\\u\\l\\+$'$/;"	v	language:Vim
+s:keep_case_m2	keepcase.vim	/^let s:keep_case_m2='^\\u\\+$'$/;"	v	language:Vim
+s:keep_case_m3	keepcase.vim	/^let s:keep_case_m3='^\\l\\+$'$/;"	v	language:Vim
+s:keep_case_m4	keepcase.vim	/^let s:keep_case_m4='^\\u.\\+$'$/;"	v	language:Vim
+s:keep_case_m5	keepcase.vim	/^let s:keep_case_m5='^\\l.\\+$'$/;"	v	language:Vim
+s:keep_case_r1	keepcase.vim	/^let s:keep_case_r1='^\\(.\\)\\(.\\+\\)$'$/;"	v	language:Vim
+s:keep_case_r2	keepcase.vim	/^let s:keep_case_r2='^.\\+$'$/;"	v	language:Vim
+s:keep_case_r3	keepcase.vim	/^let s:keep_case_r3='^.\\+$'$/;"	v	language:Vim
+s:keep_case_r4	keepcase.vim	/^let s:keep_case_r4='^.\\+$'$/;"	v	language:Vim
+s:keep_case_r5	keepcase.vim	/^let s:keep_case_r5='^.\\+$'$/;"	v	language:Vim
+s:keep_case_s1	keepcase.vim	/^let s:keep_case_s1='\\u\\1\\L\\2'$/;"	v	language:Vim
+s:keep_case_s2	keepcase.vim	/^let s:keep_case_s2='\\U&'$/;"	v	language:Vim
+s:keep_case_s3	keepcase.vim	/^let s:keep_case_s3='\\L&'$/;"	v	language:Vim
+s:keep_case_s4	keepcase.vim	/^let s:keep_case_s4='\\u&'$/;"	v	language:Vim
+s:keep_case_s5	keepcase.vim	/^let s:keep_case_s5='\\l&'$/;"	v	language:Vim
+s:keepcpo	../bundle/Align/autoload/Align.vim	/^let s:keepcpo= &cpo$/;"	v	language:Vim
+s:keepcpo	../bundle/Align/autoload/AlignMaps.vim	/^let s:keepcpo         = &cpo$/;"	v	language:Vim
+s:keepcpo	../bundle/Align/plugin/AlignMapsPlugin.vim	/^let s:keepcpo                = &cpo$/;"	v	language:Vim
+s:keepcpo	../bundle/Align/plugin/AlignPlugin.vim	/^let s:keepcpo            = &cpo$/;"	v	language:Vim
+s:keepcpo	../bundle/Decho/plugin/Decho.vim	/^let s:keepcpo      = &cpo$/;"	v	language:Vim
+s:keepcpo	cecutil.vim	/^let s:keepcpo        = &cpo$/;"	v	language:Vim
+s:last_mps	../bundle/Matchit/plugin/matchit.vim	/^let s:last_mps = ""$/;"	v	language:Vim
+s:last_words	../bundle/Matchit/plugin/matchit.vim	/^let s:last_words = ":"$/;"	v	language:Vim
+s:lenSpaceStr	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let s:lenSpaceStr = strlen(s:spaceStr)$/;"	v	language:Vim
+s:makeArgumentList	../bundle/BreakPts/autoload/genutils.vim	/^let s:makeArgumentList = ''$/;"	v	language:Vim
+s:makeArgumentString	../bundle/BreakPts/autoload/genutils.vim	/^let s:makeArgumentString = ''$/;"	v	language:Vim
+s:mapleader	../bundle/Align/plugin/AlignMapsPlugin.vim	/^  let s:mapleader = exists("g:mapleader")? g:mapleader : '\\'$/;"	v	language:Vim
+s:maxdelay	matrix.vim	/^let s:maxdelay = 5$/;"	v	language:Vim
+s:menuRoot	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let s:menuRoot = g:NERD_menu_mode == 1 ? "comment" : "&comment"$/;"	v	language:Vim
+s:menu_char_prefix	../bundle/Taglist/plugin/taglist.vim	/^let s:menu_char_prefix =$/;"	v	language:Vim
+s:mindelay	matrix.vim	/^let s:mindelay = 1$/;"	v	language:Vim
+s:modes	../bundle/supertab/plugin/supertab.vim	/^  let s:modes = '\/^E\/^Y\/^L\/^N\/^K\/^T\/^I\/^]\/^F\/^D\/^V\/^P\/^U\/^O\/s'$/;"	v	language:Vim
+s:modes	../bundle/supertab/plugin/supertab.vim	/^  let s:modes = s:modes . '\/n\/p'$/;"	v	language:Vim
+s:modifier	cecutil.vim	/^ let s:modifier= "sil "$/;"	v	language:Vim
+s:modifier	cecutil.vim	/^ let s:modifier= "sil keepj "$/;"	v	language:Vim
+s:myBufNum	../bundle/BreakPts/autoload/breakpts.vim	/^let s:myBufNum = -1$/;"	v	language:Vim
+s:mySNR	../bundle/BreakPts/autoload/genutils.vim	/^let s:mySNR = ''$/;"	v	language:Vim
+s:myScriptId	../bundle/BreakPts/autoload/breakpts.vim	/^let s:myScriptId = s:MyScriptId()$/;"	v	language:Vim
+s:next_sign_id	../bundle/Syntastic/plugin/syntastic.vim	/^let s:next_sign_id = s:first_sign_id$/;"	v	language:Vim
+s:notifyWindow	../bundle/BreakPts/autoload/genutils.vim	/^let s:notifyWindow = {}$/;"	v	language:Vim
+s:notslash	../bundle/Matchit/plugin/matchit.vim	/^let s:notslash = '\\\\\\@<!\\%(\\\\\\\\\\)*'$/;"	v	language:Vim
+s:opMode	../bundle/BreakPts/autoload/breakpts.vim	/^let s:opMode = ""$/;"	v	language:Vim
+s:prevDate	../bundle/totd/plugin/totd.vim	/^let s:prevDate = 20110805$/;"	v	language:Vim
+s:prevLine	../bundle/totd/plugin/totd.vim	/^let s:prevLine = 12986$/;"	v	language:Vim
+s:remoteServName	../bundle/BreakPts/autoload/breakpts.vim	/^let s:remoteServName = '.'$/;"	v	language:Vim
+s:running_windows	../bundle/Syntastic/plugin/syntastic.vim	/^let s:running_windows = has("win16") || has("win32") || has("win64")$/;"	v	language:Vim
+s:save_cpo	../bundle/BreakPts/autoload/breakpts.vim	/^let s:save_cpo = &cpo$/;"	v	language:Vim
+s:save_cpo	../bundle/BreakPts/autoload/genutils.vim	/^let s:save_cpo = &cpo$/;"	v	language:Vim
+s:save_cpo	../bundle/BreakPts/plugin/breakpts.vim	/^let s:save_cpo = &cpo$/;"	v	language:Vim
+s:save_cpo	../bundle/Matchit/plugin/matchit.vim	/^let s:save_cpo = &cpo$/;"	v	language:Vim
+s:save_cpo	../bundle/Syntastic/syntax_checkers/c.vim	/^let s:save_cpo = &cpo$/;"	v	language:Vim
+s:save_cpo	../bundle/supertab/plugin/supertab.vim	/^let s:save_cpo=&cpo$/;"	v	language:Vim
+s:save_cpo	../bundle/totd/plugin/totd.vim	/^let s:save_cpo = &cpo$/;"	v	language:Vim
+s:selection	../bundle/BreakPts/autoload/genutils.vim	/^let s:selection = -1$/;"	v	language:Vim
+s:session_file	matrix.vim	/^let s:session_file = tempname()$/;"	v	language:Vim
+s:snippets	../bundle/SnipMate/plugin/snipMate.vim	/^let s:snippets = {} | let s:multi_snips = {}$/;"	v	language:Vim
+s:spaceStr	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let s:spaceStr = ' '$/;"	v	language:Vim
+s:spacer	../bundle/BreakPts/autoload/genutils.vim	/^let s:spacer= "                                                               ".$/;"	v	language:Vim
+s:spaces	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let s:spaces = s:spaces . "    "$/;"	v	language:Vim
+s:spaces	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let s:spaces = ""$/;"	v	language:Vim
+s:spacesPerTab	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let s:spacesPerTab = s:spacesPerTab - 1$/;"	v	language:Vim
+s:spacesPerTab	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let s:spacesPerTab = &tabstop$/;"	v	language:Vim
+s:tabHelp	../bundle/supertab/plugin/supertab.vim	/^  let s:tabHelp =$/;"	v	language:Vim
+s:tabSpace	../bundle/NERD_comments/plugin/NERD_comments.vim	/^    let s:tabSpace = s:tabSpace . " "$/;"	v	language:Vim
+s:tabSpace	../bundle/NERD_comments/plugin/NERD_comments.vim	/^let s:tabSpace = ""$/;"	v	language:Vim
+s:thisFile	../bundle/totd/plugin/totd.vim	/^let s:thisFile = expand("<sfile>:p")$/;"	v	language:Vim
+s:tlist_app_name	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_app_name = "none"$/;"	v	language:Vim
+s:tlist_brief_help	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_brief_help = 1$/;"	v	language:Vim
+s:tlist_cur_file_idx	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v	language:Vim
+s:tlist_debug	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_debug = 0$/;"	v	language:Vim
+s:tlist_debug_file	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_debug_file = ''$/;"	v	language:Vim
+s:tlist_def_asm_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v	language:Vim
+s:tlist_def_aspperl_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v	language:Vim
+s:tlist_def_aspvbs_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v	language:Vim
+s:tlist_def_awk_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v	language:Vim
+s:tlist_def_beta_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v	language:Vim
+s:tlist_def_c_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v	language:Vim
+s:tlist_def_cobol_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v	language:Vim
+s:tlist_def_cpp_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v	language:Vim
+s:tlist_def_cs_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v	language:Vim
+s:tlist_def_csh_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v	language:Vim
+s:tlist_def_eiffel_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v	language:Vim
+s:tlist_def_erlang_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v	language:Vim
+s:tlist_def_expect_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v	language:Vim
+s:tlist_def_fortran_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v	language:Vim
+s:tlist_def_html_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v	language:Vim
+s:tlist_def_java_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v	language:Vim
+s:tlist_def_javascript_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v	language:Vim
+s:tlist_def_lisp_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v	language:Vim
+s:tlist_def_lua_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v	language:Vim
+s:tlist_def_make_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v	language:Vim
+s:tlist_def_pascal_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v	language:Vim
+s:tlist_def_perl_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v	language:Vim
+s:tlist_def_php_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v	language:Vim
+s:tlist_def_python_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v	language:Vim
+s:tlist_def_rexx_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v	language:Vim
+s:tlist_def_ruby_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v	language:Vim
+s:tlist_def_scheme_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v	language:Vim
+s:tlist_def_sh_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v	language:Vim
+s:tlist_def_slang_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v	language:Vim
+s:tlist_def_sml_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v	language:Vim
+s:tlist_def_sql_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v	language:Vim
+s:tlist_def_tcl_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v	language:Vim
+s:tlist_def_vera_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v	language:Vim
+s:tlist_def_verilog_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v	language:Vim
+s:tlist_def_vim_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v	language:Vim
+s:tlist_def_yacc_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v	language:Vim
+s:tlist_def_zsh_settings	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v	language:Vim
+s:tlist_file_count	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_file_count = 0$/;"	v	language:Vim
+s:tlist_file_lnum_idx_cache	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v	language:Vim
+s:tlist_file_name_idx_cache	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v	language:Vim
+s:tlist_file_names	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_file_names=''$/;"	v	language:Vim
+s:tlist_ftype_count	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v	language:Vim
+s:tlist_menu_empty	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v	language:Vim
+s:tlist_msg	../bundle/Taglist/plugin/taglist.vim	/^    let s:tlist_msg = ''$/;"	v	language:Vim
+s:tlist_removed_flist	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v	language:Vim
+s:tlist_sid	../bundle/Taglist/plugin/taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v	language:Vim
+s:tlist_win_maximized	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v	language:Vim
+s:tlist_winsize_chgd	../bundle/Taglist/plugin/taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v	language:Vim
+s:types	../bundle/supertab/plugin/supertab.vim	/^  let s:types = s:types . "np"$/;"	v	language:Vim
+s:types	../bundle/supertab/plugin/supertab.vim	/^  let s:types =$/;"	v	language:Vim
+s:vimtipsDate	../bundle/totd/plugin/totd.vim	/^let s:vimtipsDate = 20110802$/;"	v	language:Vim
+snipMate#expandSnip	../bundle/SnipMate/autoload/snipMate.vim	/^fun snipMate#expandSnip(snip, col)$/;"	f	language:Vim
+snipMate#jumpTabStop	../bundle/SnipMate/autoload/snipMate.vim	/^fun snipMate#jumpTabStop(backwards)$/;"	f	language:Vim
+snippets_dir	../bundle/SnipMate/plugin/snipMate.vim	/^	let snippets_dir = substitute(globpath(&rtp, 'snippets\/'), "\\n", ',', 'g')$/;"	v	language:Vim
+them.	../bundle/NERD_comments/plugin/NERD_comments.vim	/^implemented them.$/;"	m	language:Vim
+to	../bundle/NERD_comments/plugin/NERD_comments.vim	/^mappings to use NERD_comments while there are plenty of other features for the$/;"	m	language:Vim
+will	../bundle/NERD_comments/plugin/NERD_comments.vim	/^                                      mappings will begin with.$/;"	m	language:Vim
