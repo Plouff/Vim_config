@@ -1,3 +1,27 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/NERD_tree"]
+	path = bundle/NERD_tree
+	url = http://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/NERD_commenter"]
+	path = bundle/NERD_commenter
+	url = http://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/Snipmate"]
+	path = bundle/Snipmate
+	url = http://github.com/garbas/vim-snipmate.git
+[submodule "bundle/Syntastic"]
+	path = bundle/Syntastic
+	url = http://github.com/scrooloose/syntastic.git
+[submodule "bundle/Align"]
+	path = bundle/Align
+	url = http://github.com/vim-scripts/Align.git
+[submodule "bundle/Taglist"]
+	path = bundle/Taglist
+	url = http://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/Matchit"]
+	path = bundle/Matchit
+	url = http://github.com/edsono/vim-matchit.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = http://github.com/ervandew/supertab.git
