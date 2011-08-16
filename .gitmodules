@@ -25,3 +25,9 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = http://github.com/ervandew/supertab.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = http://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = http://github.com/MarcWeber/vim-addon-mw-utils.git
